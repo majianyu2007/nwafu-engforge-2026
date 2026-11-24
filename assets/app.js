@@ -1,8 +1,8 @@
 const TYPE_LABELS = {
-  single: '单选题',
-  multiple: '多选题',
-  judgement: '判断题',
-  completion: '填空客观题'
+  single: '单选',
+  multiple: '多选',
+  judgement: '判断',
+  completion: '填空'
 };
 
 const PAGE_SIZE = 24;
@@ -25,26 +25,23 @@ const OCS_MODE_META = {
     filename: 'ocs-config.json',
     href: './data/ocs-config.json',
     download: 'engforge-2026-ocs-config.json',
-    badge: (count, kb) => `${count} 题全量离线 · ${kb} KB · 0 安全警告`,
-    note: '完整离线版：297 题内联在本地匹配引擎中，无需联网、0 安全警告；若标准版 OCS 保存时提示域名白名单警告，点确认忽略即可。',
-    copied: '已复制「完整离线版」配置（纯离线 297 题，0 安全警告），请直接粘贴到 OCS「自定义题库」保存。'
+    badge: (count, kb) => `${count} 题离线 · ${kb} KB · 0 警告`,
+    note: '297 题内联本地匹配，无需联网且 0 安全警告（标准版 OCS 若提示白名单确认忽略即可）。',
+    copied: '已复制完整离线版配置。'
   },
   online: {
     filename: 'ocs-config-online.json',
     href: './data/ocs-config-online.json',
     download: 'engforge-2026-ocs-config-online.json',
-    badge: (_count, kb) => `实时拉取本站题库 · ${kb} KB · 配置极简`,
-    note: '在线精简版：每次做题向本站静态 JSON 请求一次数据，题库更新自动生效；因需读取当前页面题干，OCS 保存时会弹一次 document 安全提示，点「仍要使用」即可。',
-    copied: '已复制「在线精简版」配置（仅约 2 KB，自动请求本站静态题库），粘贴到 OCS 保存即可。'
+    badge: (_count, kb) => `在线请求本站 · ${kb} KB`,
+    note: '逐题拉取本站静态 questions.json；OCS 保存时若提示 document 风险，点「仍要使用」即可。',
+    copied: '已复制在线精简版配置。'
   }
 };
 
 const els = {
   mobileMenuBtn: document.getElementById('mobile-menu-btn'),
   globalNavLinks: document.getElementById('global-nav-links'),
-  metricModules: document.getElementById('metric-modules'),
-  metricQuestions: document.getElementById('metric-questions'),
-  metricScore: document.getElementById('metric-score'),
   ocsModeSwitcher: document.getElementById('ocs-mode-switcher'),
   ocsFile: document.getElementById('ocs-artifact-file'),
   ocsMeta: document.getElementById('ocs-config-meta'),
@@ -108,6 +105,30 @@ function setupMobileNav() {
   });
 }
 
+function renderOcsConfig() {
+  const mode = state.ocsMode;
+  const text = state.ocsConfigs[mode];
+  const cfg = OCS_MODE_META[mode];
+  if (!text || !cfg) return;
+
+  const sizeKb = (new Blob([text]).size / 1024).toFixed(1);
+  const count = state.bank?.meta?.totalQuestions || 297;
+
+  els.ocsFile.textContent = cfg.filename;
+  els.ocsMeta.textContent = cfg.badge(count, sizeKb);
+  els.ocsModeNote.textContent = cfg.note;
+  els.downloadOcsLink.href = cfg.href;
+  els.downloadOcsLink.setAttribute('download', cfg.download);
+  els.ocsTextarea.value = text;
+  els.copyOcsBtn.disabled = false;
+
+  els.ocsModeSwitcher.querySelectorAll('button[data-mode]').forEach((btn) => {
+    const active = btn.dataset.mode === mode;
+    btn.classList.toggle('is-selected', active);
+    btn.setAttribute('aria-selected', String(active));
+  });
+}
+
 function renderCoverageTable(bank) {
   const { modules, meta } = bank;
   els.coverageTbody.innerHTML = modules
@@ -141,7 +162,7 @@ function renderCoverageTable(bank) {
 
 function renderModuleChips(bank) {
   const chips = [
-    `<button class="configurator-option-chip is-selected" type="button" data-module="all">全部工种 (${bank.meta.totalQuestions})</button>`,
+    `<button class="configurator-option-chip is-selected" type="button" data-module="all">全部 (${bank.meta.totalQuestions})</button>`,
     ...bank.modules.map(
       (m) =>
         `<button class="configurator-option-chip" type="button" data-module="${escapeHtml(m.name)}">${escapeHtml(m.name)} (${m.questionCount})</button>`
@@ -165,7 +186,7 @@ function getFilteredQuestions() {
   });
 }
 
-function renderQuestionCard(q, idx) {
+function renderQuestionCard(q) {
   const typeLabel = TYPE_LABELS[q.type] || q.typeName;
   const metaParts = [
     escapeHtml(q.module),
@@ -173,7 +194,7 @@ function renderQuestionCard(q, idx) {
     `${q.score} 分`
   ];
   if (q.cleaned) {
-    metaParts.push(`<span title="${escapeHtml(q.cleaningNote || '已自然化清洗')}">已清洗</span>`);
+    metaParts.push(`<span title="${escapeHtml(q.cleaningNote || '已清洗')}">已清洗</span>`);
   }
 
   const imagesHtml =
@@ -199,7 +220,7 @@ function renderQuestionCard(q, idx) {
   const answerBodyHtml =
     q.type === 'completion'
       ? `<div class="question-answer-content">
-           <span class="answer-prefix">参考答案（${q.answers.length} 空）</span>
+           <span class="answer-prefix">答案</span>
            <div class="answer-blanks">
              ${q.answers
                .map(
@@ -210,15 +231,12 @@ function renderQuestionCard(q, idx) {
            </div>
          </div>`
       : `<div class="question-answer-content">
-           <span class="answer-prefix">参考答案</span>${escapeHtml(q.answers.join(' / '))}
+           <span class="answer-prefix">答案</span>${escapeHtml(q.answers.join(' / '))}
          </div>`;
 
   return `
     <article class="question-card" data-qid="${q.id}">
-      <div class="question-meta">
-        <span>${metaParts.join(' · ')}</span>
-        <span class="question-meta-id">#${idx + 1} · ${q.id}</span>
-      </div>
+      <div class="question-meta">${metaParts.join(' · ')}</div>
       <h3 class="question-title">${escapeHtml(q.title)}</h3>
       ${imagesHtml}
       ${optionsHtml}
@@ -235,15 +253,15 @@ function renderQuestionList() {
   els.resetFilterBtn.hidden = !hasFilter;
 
   if (filtered.length === 0) {
-    els.bankCountLabel.textContent = '未找到匹配的题目';
-    els.questionList.innerHTML = '<div class="empty-state">未找到符合条件的题目，请缩短关键词或重置筛选。</div>';
+    els.bankCountLabel.textContent = '未找到匹配题目';
+    els.questionList.innerHTML = '<div class="empty-state">未找到符合条件的题目。</div>';
     els.loadMoreWrap.hidden = true;
     return;
   }
 
   const slice = filtered.slice(0, state.visibleCount);
-  els.bankCountLabel.textContent = `显示 ${slice.length} / 共匹配 ${filtered.length} 题（总题库 ${state.bank.meta.totalQuestions} 题）`;
-  els.questionList.innerHTML = slice.map((q, i) => renderQuestionCard(q, i)).join('');
+  els.bankCountLabel.textContent = `显示 ${slice.length} / ${filtered.length} 题`;
+  els.questionList.innerHTML = slice.map((q) => renderQuestionCard(q)).join('');
 
   if (filtered.length > slice.length) {
     els.loadMoreWrap.hidden = false;
@@ -251,30 +269,6 @@ function renderQuestionList() {
   } else {
     els.loadMoreWrap.hidden = true;
   }
-}
-
-function renderOcsConfig() {
-  const mode = state.ocsMode;
-  const text = state.ocsConfigs[mode];
-  const cfg = OCS_MODE_META[mode];
-  if (!text || !cfg) return;
-
-  const sizeKb = (new Blob([text]).size / 1024).toFixed(1);
-  const count = state.bank?.meta?.totalQuestions || 297;
-
-  els.ocsFile.textContent = cfg.filename;
-  els.ocsMeta.textContent = cfg.badge(count, sizeKb);
-  els.ocsModeNote.textContent = cfg.note;
-  els.downloadOcsLink.href = cfg.href;
-  els.downloadOcsLink.setAttribute('download', cfg.download);
-  els.ocsTextarea.value = text;
-  els.copyOcsBtn.disabled = false;
-
-  els.ocsModeSwitcher.querySelectorAll('button[data-mode]').forEach((btn) => {
-    const active = btn.dataset.mode === mode;
-    btn.classList.toggle('is-selected', active);
-    btn.setAttribute('aria-selected', String(active));
-  });
 }
 
 function bindEvents() {
@@ -291,7 +285,7 @@ function bindEvents() {
     if (!text) return;
     const ok = await copyText(text);
     if (ok) {
-      els.copyOcsBtn.textContent = '已复制到剪贴板';
+      els.copyOcsBtn.textContent = '已复制';
       els.copyFeedback.textContent = OCS_MODE_META[state.ocsMode].copied;
       setTimeout(() => {
         els.copyOcsBtn.textContent = '一键复制配置';
@@ -299,7 +293,7 @@ function bindEvents() {
     } else {
       els.ocsTextarea.focus();
       els.ocsTextarea.select();
-      els.copyFeedback.textContent = '已为你全选文本框配置，请按 Cmd/Ctrl + C 复制。';
+      els.copyFeedback.textContent = '已全选配置，请按 Cmd/Ctrl + C 复制。';
     }
   });
 
@@ -384,10 +378,6 @@ async function bootstrap() {
     state.bank = bank;
     state.ocsConfigs.offline = (await ocsOfflineRes.text()).trim();
     state.ocsConfigs.online = (await ocsOnlineRes.text()).trim();
-
-    els.metricModules.textContent = `${bank.meta.totalModules} 项`;
-    els.metricQuestions.textContent = `${bank.meta.totalQuestions} 题`;
-    els.metricScore.textContent = `${bank.meta.totalScore.toFixed(1)} 分`;
 
     renderOcsConfig();
     renderModuleChips(bank);

@@ -4,19 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>EngForge — 2026 年 11 月工程训练智慧树题库</title>
-  <meta name="description" content="西北农林科技大学 2026 年 11 月开展的工程训练智慧树课程题库，支持一键复制 OCS 网课助手题库配置（完整离线版 / 在线精简版），以及安装独立智慧树自动答题脚本。" />
+  <meta name="description" content="西北农林科技大学 2026 年 11 月开展的工程训练智慧树课程题库，收录 11 项作业 297 题，支持 OCS 配置与独立自动答题脚本。" />
   <link rel="stylesheet" href="./assets/styles.css" />
 </head>
 <body>
-  <!-- Global Navigation: Pure Black #000000, 44px -->
+  <!-- Single Sticky Frosted Global Navigation (Apple.com style: 44px, centered quiet links, zero duplicate bar) -->
   <header class="global-nav" aria-label="主导航">
     <div class="global-nav-inner">
       <a class="global-nav-brand" href="#top">EngForge</a>
       <nav class="global-nav-links" id="global-nav-links" aria-label="页面导航">
         <a href="#ocs-config">OCS 配置</a>
         <a href="#userscript">独立脚本</a>
-        <a href="#coverage">组卷核验</a>
-        <a href="#question-bank">在线题库</a>
+        <a href="#coverage">组卷数据</a>
+        <a href="#question-bank">题库检索</a>
         <a href="https://docs.ocsjs.com/" target="_blank" rel="noopener">OCS 文档</a>
         <a href="https://github.com/majianyu2007/nwafu-engforge-2026" target="_blank" rel="noopener">GitHub</a>
       </nav>
@@ -27,39 +27,33 @@
     </div>
   </header>
 
-  <!-- Sub-Nav Frosted: Parchment 80% + backdrop-filter blur, 52px -->
-  <div class="sub-nav-frosted" role="region" aria-label="快捷入口">
-    <div class="sub-nav-inner">
-      <a class="sub-nav-title" href="#top">EngForge</a>
-      <div class="sub-nav-right">
-        <a class="sub-nav-link" href="#ocs-config">OCS 配置</a>
-        <a class="sub-nav-link" href="#userscript">独立脚本</a>
-        <a class="sub-nav-link" href="#question-bank">题库检索</a>
-        <a class="button-primary button-subnav" href="./userscript/engforge-zhs.user.js">安装脚本</a>
-      </div>
-    </div>
+  <!-- Single-Line Quiet Ribbon (matches Apple.com top announcement strip) -->
+  <div class="ribbon">
+    <p>
+      西北农林科技大学 2026 年 11 月开展的工程训练智慧树课程，11 项作业 297 题完整收录。
+      <a class="text-link ribbon-link" href="#question-bank">立即查题 ›</a>
+    </p>
   </div>
 
   <main id="top">
-    <!-- Tile 1: Full-Bleed Light Hero (#ffffff) -->
-    <section class="tile product-tile-light hero-tile">
+    <!-- Tile 1: Parchment Hero (#f5f5f7, Apple.com iPhone hero rhythm) -->
+    <section class="tile product-tile-parchment hero-tile">
       <div class="container container-narrow tile-stack">
         <h1 class="hero-display">EngForge</h1>
         <p class="lead">2026 年 11 月工程训练智慧树题库。</p>
-        <p class="hero-sub">西北农林科技大学 · 2026 年 11 月开展 · 工程训练智慧树课程 · 11 项作业 297 题全收录</p>
         <div class="cta-row">
-          <a class="button-primary" href="./userscript/engforge-zhs.user.js">安装独立脚本</a>
-          <a class="button-secondary-pill" href="#ocs-config">配置 OCS 题库</a>
+          <a class="button-primary" href="./userscript/engforge-zhs.user.js">安装脚本</a>
+          <a class="button-secondary-pill" href="#ocs-config">OCS 配置</a>
         </div>
 
-        <!-- Product Stage Artifact: the single signature Apple drop-shadow in the system -->
+        <!-- Product Stage Artifact resting on #f5f5f7 with Apple's single signature drop-shadow -->
         <figure class="product-stage" aria-label="EngForge 在智慧树作业页运行示意图">
           <div class="browser-frame">
             <div class="browser-chrome" aria-hidden="true">
               <div class="traffic-lights">
                 <span></span><span></span><span></span>
               </div>
-              <div class="browser-url">examloop.zhihuishu.com/exam/4537974</div>
+              <div class="browser-url">examloop.zhihuishu.com/exam</div>
               <div class="browser-spacer"></div>
             </div>
             <div class="browser-viewport">
@@ -79,7 +73,7 @@
                   <span class="mock-hud-meta">297 题就绪</span>
                 </div>
                 <div class="mock-hud-body">
-                  <div class="mock-hud-status">正在自动作答 · 第 7 / 35 题</div>
+                  <div class="mock-hud-status">第 7 / 35 题</div>
                   <div class="mock-hud-track"><div class="mock-hud-fill"></div></div>
                   <div class="mock-hud-log">
                     <div>✓ 第 7 题：打标机</div>
@@ -94,28 +88,27 @@
       </div>
     </section>
 
-    <!-- Tile 2: Full-Bleed Dark Tile (#272729) — Option 1: OCS Question Bank Config -->
+    <!-- Tile 2: Dark Tile (#272729) — OCS Question Bank Config -->
     <section class="tile product-tile-dark" id="ocs-config">
       <div class="container container-narrow tile-stack">
         <h2 class="display-lg">OCS 题库配置</h2>
-        <p class="lead lead-on-dark">两种模式可选。复制到 OCS 即可自动作答。</p>
+        <p class="lead lead-on-dark">两种纯前端模式，复制到 OCS 即刻生效。</p>
 
-        <div class="ocs-mode-switcher" id="ocs-mode-switcher" role="tablist" aria-label="选择 OCS 题库配置模式">
+        <div class="ocs-mode-switcher" id="ocs-mode-switcher" role="tablist" aria-label="选择配置模式">
           <button class="ocs-mode-chip is-selected" type="button" role="tab" aria-selected="true" data-mode="offline">
-            完整离线版 · 纯离线 0 警告
+            完整离线版
           </button>
           <button class="ocs-mode-chip" type="button" role="tab" aria-selected="false" data-mode="online">
-            在线精简版 · 逐题请求本站数据
+            在线精简版
           </button>
         </div>
 
         <div class="cta-row">
           <button class="button-primary" id="copy-ocs-btn" type="button" disabled>一键复制配置</button>
-          <a class="text-link-on-dark cta-link" href="https://docs.ocsjs.com/docs/work" target="_blank" rel="noopener">OCS 官方文档 ›</a>
+          <a class="text-link-on-dark cta-link" href="https://docs.ocsjs.com/docs/work" target="_blank" rel="noopener">OCS 文档 ›</a>
         </div>
         <div class="copy-feedback" id="copy-feedback" role="status" aria-live="polite"></div>
 
-        <!-- Direct Copyable OCS Config Artifact -->
         <div class="product-stage ocs-stage">
           <div class="ocs-artifact">
             <div class="ocs-artifact-head">
@@ -128,105 +121,64 @@
               class="ocs-visible-textarea"
               readonly
               spellcheck="false"
-              rows="12"
+              rows="11"
               aria-label="OCS 题库配置 JSON"
             >正在加载题库配置…</textarea>
             <div class="ocs-artifact-foot">
-              <span class="ocs-artifact-note" id="ocs-mode-note">
-                完整离线版：297 题内联在本地匹配引擎中，零网络请求、0 安全警告；若标准版 OCS 保存时提示白名单警告，点确认忽略即可。
-              </span>
-              <div class="ocs-artifact-links">
-                <a class="text-link-on-dark" id="download-ocs-link" href="./data/ocs-config.json" download="engforge-2026-ocs-config.json">下载 JSON</a>
-              </div>
+              <span class="ocs-artifact-note" id="ocs-mode-note"></span>
+              <a class="text-link-on-dark ocs-download" id="download-ocs-link" href="./data/ocs-config.json" download="engforge-2026-ocs-config.json">下载 ›</a>
             </div>
           </div>
         </div>
 
-        <!-- Borderless typographic 3-step guide (no decorative card chrome) -->
-        <ol class="minimal-steps">
-          <li>
-            <span class="minimal-step-idx">01</span>
-            <h3>选择模式并复制</h3>
-            <p>「完整离线版」免联网且 0 警告；「在线精简版」仅约 2 KB，每次答题自动拉取本站最新题库 JSON。</p>
-          </li>
-          <li>
-            <span class="minimal-step-idx">02</span>
-            <h3>粘贴到 OCS</h3>
-            <p>进入 OCS「通用 → 全局设置 → 题库配置 → 自定义题库」粘贴保存（切勿经微信/QQ 转发）。</p>
-          </li>
-          <li>
-            <span class="minimal-step-idx">03</span>
-            <h3>打开作业自动作答</h3>
-            <p>进入智慧树新形态作业页，单选、多选、判断、多空填空及配图题均 100% 命中。</p>
-          </li>
-        </ol>
+        <p class="dark-footnote">
+          粘贴至 OCS「通用 → 全局设置 → 题库配置 → 自定义题库」保存即可，切勿经微信或 QQ 聊天框转发。
+        </p>
       </div>
     </section>
 
-    <!-- Tile 3: Full-Bleed Parchment Tile (#f5f5f7) — Option 2: Standalone Userscript -->
+    <!-- Tile 3: Parchment Tile (#f5f5f7) — Standalone Userscript -->
     <section class="tile product-tile-parchment" id="userscript">
-      <div class="container container-wide">
-        <div class="container-narrow tile-stack">
-          <h2 class="display-lg">独立答题脚本</h2>
-          <p class="lead">剥离自 OCS。专为 2026 工程训练打造。</p>
+      <div class="container container-narrow">
+        <div class="tile-stack">
+          <h2 class="display-lg">独立脚本</h2>
+          <p class="lead">剥离自 OCS，直连本题库，安装即用。</p>
           <div class="cta-row">
             <a class="button-store-hero" href="./userscript/engforge-zhs.user.js">安装脚本</a>
             <a class="text-link cta-link" href="https://github.com/majianyu2007/nwafu-engforge-2026/blob/main/userscript/engforge-zhs.user.js" target="_blank" rel="noopener">查看源码 ›</a>
           </div>
           <p class="caption-line">
-            无需安装完整 OCS，需先安装
+            需先安装
             <a class="text-link inline-caption-link" href="https://docs.scriptcat.org/" target="_blank" rel="noopener">ScriptCat 脚本猫</a>
             或
             <a class="text-link inline-caption-link" href="https://www.tampermonkey.net/" target="_blank" rel="noopener">Tampermonkey 篡改猴</a>。
           </p>
         </div>
 
-        <!-- Apple Store-style Utility Card Grid (18px radius, 1px #e0e0e0 hairline, zero shadow) -->
         <div class="utility-grid">
           <article class="store-utility-card">
-            <h3>精简专注</h3>
-            <p>仅保留知到智慧树 <code>examloop</code> 新形态作业页答题逻辑，移除冗余刷课模块，打开作业页即刻唤起。</p>
+            <h3>专注作业页</h3>
+            <p>仅在智慧树 <code>examloop</code> 作业页生效，移除无关刷课模块。</p>
           </article>
           <article class="store-utility-card">
             <h3>直连静态题库</h3>
-            <p>默认从本站点拉取最新 <code>questions.json</code> 并本地缓存，完整覆盖单选、多选、判断、多空填空及配图题。</p>
+            <p>自动同步本站 297 题，覆盖单选、多选、判断、多空填空及配图题。</p>
           </article>
           <article class="store-utility-card">
             <h3>人工核对交卷</h3>
-            <p>支持一键整卷填写、单题作答、切题延时调节与随时暂停；绝不自动交卷，确认无误后手动提交。</p>
+            <p>支持整卷填写、调速与随时暂停，绝不自动交卷。</p>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- Tile 4: Full-Bleed Dark Tile 3 (#252527) — Forensic Paper Verification & Specs -->
+    <!-- Tile 4: Dark Tile 3 (#252527) — Paper Composition Specs -->
     <section class="tile product-tile-dark-3" id="coverage">
       <div class="container container-narrow">
         <div class="tile-stack coverage-head">
           <h2 class="display-lg">11 项作业。297 题。100.0 分。</h2>
-          <p class="lead-airy lead-on-dark">
-            经逐卷核验，全部 11 份作业的组卷类型均为固定试卷（ASSIGN），每位同学题目完全相同、仅展示乱序，非随机抽题；8 道多空重复/同义词填空题已完成自然化清洗并确保一次满分。
-          </p>
+          <p class="lead-airy lead-on-dark">全部为固定试卷（ASSIGN），仅题目乱序，非随机抽题。</p>
         </div>
-
-        <dl class="dark-metrics">
-          <div>
-            <dt>覆盖作业</dt>
-            <dd id="metric-modules">11 项</dd>
-          </div>
-          <div>
-            <dt>原题总数</dt>
-            <dd id="metric-questions">297 题</dd>
-          </div>
-          <div>
-            <dt>卷面满分</dt>
-            <dd id="metric-score">100.0 分</dd>
-          </div>
-          <div>
-            <dt>配图原题</dt>
-            <dd>4 题</dd>
-          </div>
-        </dl>
 
         <div class="specs-scroll">
           <table class="specs-table">
@@ -251,12 +203,12 @@
       </div>
     </section>
 
-    <!-- Tile 5: Full-Bleed Light Tile (#ffffff) — Question Bank Search & Browse -->
+    <!-- Tile 5: Light Tile (#ffffff) — Question Bank Search -->
     <section class="tile product-tile-light" id="question-bank">
       <div class="container container-narrow">
         <div class="tile-stack bank-head">
           <h2 class="display-lg">题库检索</h2>
-          <p class="lead">按关键词、工种或题型，即时查阅全部 297 道原题。</p>
+          <p class="lead">按关键词、工种或题型即时查找。</p>
         </div>
 
         <div class="bank-controls">
@@ -277,11 +229,11 @@
 
           <div class="chip-group" id="module-chips" role="group" aria-label="按工种筛选"></div>
           <div class="chip-group" id="type-chips" role="group" aria-label="按题型筛选">
-            <button class="configurator-option-chip is-selected" type="button" data-type="all">全部题型</button>
-            <button class="configurator-option-chip" type="button" data-type="single">单选题</button>
-            <button class="configurator-option-chip" type="button" data-type="multiple">多选题</button>
-            <button class="configurator-option-chip" type="button" data-type="judgement">判断题</button>
-            <button class="configurator-option-chip" type="button" data-type="completion">填空客观题</button>
+            <button class="configurator-option-chip is-selected" type="button" data-type="all">全部</button>
+            <button class="configurator-option-chip" type="button" data-type="single">单选</button>
+            <button class="configurator-option-chip" type="button" data-type="multiple">多选</button>
+            <button class="configurator-option-chip" type="button" data-type="judgement">判断</button>
+            <button class="configurator-option-chip" type="button" data-type="completion">填空</button>
           </div>
         </div>
 
@@ -299,44 +251,42 @@
     </section>
   </main>
 
-  <!-- Footer: Parchment #f5f5f7, dense-link 17px/2.41 leading, 64px vertical padding -->
+  <!-- Footer: Parchment #f5f5f7, dense-link 2.41 leading -->
   <footer class="site-footer">
     <div class="container container-narrow">
       <div class="footer-grid">
         <div class="footer-col">
-          <h4>快速入口</h4>
+          <h4>导航</h4>
           <ul>
             <li><a href="#ocs-config">OCS 题库配置</a></li>
             <li><a href="./userscript/engforge-zhs.user.js">安装独立脚本</a></li>
-            <li><a href="#question-bank">在线题库检索</a></li>
-            <li><a href="#coverage">组卷与覆盖核验</a></li>
+            <li><a href="#coverage">组卷数据</a></li>
+            <li><a href="#question-bank">题库检索</a></li>
           </ul>
         </div>
         <div class="footer-col">
-          <h4>静态数据与脚本</h4>
+          <h4>静态接口</h4>
           <ul>
             <li><a href="./data/questions.json" target="_blank" rel="noopener">questions.json</a></li>
-            <li><a href="./data/ocs-config.json" target="_blank" rel="noopener">ocs-config.json（离线版）</a></li>
-            <li><a href="./data/ocs-config-online.json" target="_blank" rel="noopener">ocs-config-online.json（在线版）</a></li>
+            <li><a href="./data/ocs-config.json" target="_blank" rel="noopener">ocs-config.json</a></li>
+            <li><a href="./data/ocs-config-online.json" target="_blank" rel="noopener">ocs-config-online.json</a></li>
             <li><a href="./userscript/engforge-zhs.user.js" target="_blank" rel="noopener">engforge-zhs.user.js</a></li>
-            <li><a href="https://github.com/majianyu2007/nwafu-engforge-2026/blob/main/docs/WORKFLOW.md" target="_blank" rel="noopener">开发与复用文档</a></li>
           </ul>
         </div>
         <div class="footer-col">
-          <h4>生态与致谢</h4>
+          <h4>链接</h4>
           <ul>
-            <li><a href="https://docs.ocsjs.com/" target="_blank" rel="noopener">OCS 网课助手文档</a></li>
-            <li><a href="https://github.com/ocsjs/ocsjs" target="_blank" rel="noopener">OCSJS 开源仓库</a></li>
-            <li><a href="https://docs.scriptcat.org/" target="_blank" rel="noopener">ScriptCat 脚本猫</a></li>
-            <li><a href="https://github.com/majianyu2007/nwafu-engforge-2026" target="_blank" rel="noopener">GitHub 仓库</a></li>
+            <li><a href="https://docs.ocsjs.com/" target="_blank" rel="noopener">OCS 文档</a></li>
+            <li><a href="https://github.com/ocsjs/ocsjs" target="_blank" rel="noopener">OCSJS</a></li>
+            <li><a href="https://github.com/majianyu2007/nwafu-engforge-2026/blob/main/docs/WORKFLOW.md" target="_blank" rel="noopener">开发文档</a></li>
+            <li><a href="https://github.com/majianyu2007/nwafu-engforge-2026" target="_blank" rel="noopener">GitHub</a></li>
           </ul>
         </div>
       </div>
 
-      <div class="footer-legal">
-        <p>EngForge · Engineering Training Question Bank · 西北农林科技大学 2026 年 11 月开展的工程训练智慧树课程题库。</p>
-        <p>独立脚本基于 <a href="https://github.com/ocsjs/ocsjs" target="_blank" rel="noopener">OCSJS</a>（MIT License）智慧树答题逻辑精简改编。</p>
-      </div>
+      <p class="footer-legal">
+        EngForge · 西北农林科技大学 2026 年 11 月开展的工程训练智慧树课程题库 · 独立脚本基于 <a href="https://github.com/ocsjs/ocsjs" target="_blank" rel="noopener">OCSJS</a>（MIT）改编。
+      </p>
     </div>
   </footer>
 
