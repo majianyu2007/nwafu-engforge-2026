@@ -131,16 +131,17 @@ function renderOcsConfig() {
 
 function renderCoverageTable(bank) {
   const { modules, meta } = bank;
+  const numCell = (n) => `<td class="num${n === 0 ? ' is-zero' : ''}">${n}</td>`;
   els.coverageTbody.innerHTML = modules
     .map(
       (m) => `
       <tr>
         <td>${escapeHtml(m.name)}</td>
-        <td>${escapeHtml(m.examPaperType)}</td>
-        <td class="num">${m.counts.single}</td>
-        <td class="num">${m.counts.multiple}</td>
-        <td class="num">${m.counts.judgement}</td>
-        <td class="num">${m.counts.completion}</td>
+        <td title="examPaperType: ${escapeHtml(m.examPaperType)}">固定卷</td>
+        ${numCell(m.counts.single)}
+        ${numCell(m.counts.multiple)}
+        ${numCell(m.counts.judgement)}
+        ${numCell(m.counts.completion)}
         <td class="num">${m.questionCount}</td>
         <td class="num">${m.totalScore.toFixed(1)} 分</td>
       </tr>`
@@ -150,7 +151,7 @@ function renderCoverageTable(bank) {
   els.coverageTfoot.innerHTML = `
     <tr>
       <td>总计（${meta.totalModules} 项）</td>
-      <td>全部固定卷</td>
+      <td>全部固定</td>
       <td class="num">${meta.typeTotals.single}</td>
       <td class="num">${meta.typeTotals.multiple}</td>
       <td class="num">${meta.typeTotals.judgement}</td>
@@ -162,10 +163,10 @@ function renderCoverageTable(bank) {
 
 function renderModuleChips(bank) {
   const chips = [
-    `<button class="configurator-option-chip is-selected" type="button" data-module="all">全部 (${bank.meta.totalQuestions})</button>`,
+    `<button class="filter-pill is-selected" type="button" data-module="all">全部 (${bank.meta.totalQuestions})</button>`,
     ...bank.modules.map(
       (m) =>
-        `<button class="configurator-option-chip" type="button" data-module="${escapeHtml(m.name)}">${escapeHtml(m.name)} (${m.questionCount})</button>`
+        `<button class="filter-pill" type="button" data-module="${escapeHtml(m.name)}">${escapeHtml(m.name)} (${m.questionCount})</button>`
     )
   ];
   els.moduleChips.innerHTML = chips.join('');
@@ -325,7 +326,11 @@ function bindEvents() {
     if (!btn) return;
     state.typeFilter = btn.dataset.type;
     state.visibleCount = PAGE_SIZE;
-    els.typeChips.querySelectorAll('button').forEach((b) => b.classList.toggle('is-selected', b === btn));
+    els.typeChips.querySelectorAll('button').forEach((b) => {
+      const active = b === btn;
+      b.classList.toggle('is-selected', active);
+      b.setAttribute('aria-selected', String(active));
+    });
     renderQuestionList();
   });
 
@@ -336,7 +341,11 @@ function bindEvents() {
     state.visibleCount = PAGE_SIZE;
     els.searchInput.value = '';
     els.moduleChips.querySelectorAll('button').forEach((b) => b.classList.toggle('is-selected', b.dataset.module === 'all'));
-    els.typeChips.querySelectorAll('button').forEach((b) => b.classList.toggle('is-selected', b.dataset.type === 'all'));
+    els.typeChips.querySelectorAll('button').forEach((b) => {
+      const active = b.dataset.type === 'all';
+      b.classList.toggle('is-selected', active);
+      b.setAttribute('aria-selected', String(active));
+    });
     renderQuestionList();
   });
 

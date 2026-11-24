@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./assets/styles.css" />
 </head>
 <body>
-  <!-- Single Sticky Frosted Global Navigation (Apple.com style: 44px, centered quiet links, zero duplicate bar) -->
+  <!-- Single Sticky Frosted Global Navigation (44px, borderless translucent Apple bar) -->
   <header class="global-nav" aria-label="主导航">
     <div class="global-nav-inner">
       <a class="global-nav-brand" href="#top">EngForge</a>
@@ -27,7 +27,7 @@
     </div>
   </header>
 
-  <!-- Single-Line Quiet Ribbon (matches Apple.com top announcement strip) -->
+  <!-- Quiet Single-Line Top Ribbon -->
   <div class="ribbon">
     <p>
       西北农林科技大学 2026 年 11 月开展的工程训练智慧树课程，11 项作业 297 题完整收录。
@@ -36,11 +36,11 @@
   </div>
 
   <main id="top">
-    <!-- Tile 1: Parchment Hero (#f5f5f7, Apple.com iPhone hero rhythm) -->
+    <!-- Tile 1: Parchment Hero (#f5f5f7) -->
     <section class="tile product-tile-parchment hero-tile">
       <div class="container container-narrow tile-stack">
         <h1 class="hero-display">EngForge</h1>
-        <p class="lead">2026 年 11 月工程训练智慧树题库。</p>
+        <p class="lead">2026 年 11 月工程训练智慧树题库</p>
         <div class="cta-row">
           <a class="button-primary" href="./userscript/engforge-zhs.user.js">安装脚本</a>
           <a class="button-secondary-pill" href="#ocs-config">OCS 配置</a>
@@ -58,7 +58,7 @@
             </div>
             <div class="browser-viewport">
               <div class="mock-exam-main">
-                <div class="mock-exam-meta">7、单选题（0.2分）</div>
+                <div class="mock-exam-meta">单选题 · 0.2 分</div>
                 <div class="mock-exam-stem">加工单元中不包含（ ）。</div>
                 <div class="mock-exam-options">
                   <div class="mock-opt"><span>A</span>数控车床</div>
@@ -73,12 +73,15 @@
                   <span class="mock-hud-meta">297 题就绪</span>
                 </div>
                 <div class="mock-hud-body">
-                  <div class="mock-hud-status">第 7 / 35 题</div>
+                  <div class="mock-hud-progress-row">
+                    <span>第 7 / 35 题</span>
+                    <span>100% 命中</span>
+                  </div>
                   <div class="mock-hud-track"><div class="mock-hud-fill"></div></div>
                   <div class="mock-hud-log">
-                    <div>✓ 第 7 题：打标机</div>
-                    <div>✓ 第 6 题：对</div>
-                    <div>✓ 第 5 题：退火 | 正火 | 淬火 | 回火</div>
+                    <div><span>✓</span>第 7 题：打标机</div>
+                    <div><span>✓</span>第 6 题：对</div>
+                    <div><span>✓</span>第 5 题：退火 | 正火 | 淬火 | 回火</div>
                   </div>
                 </div>
               </div>
@@ -92,16 +95,7 @@
     <section class="tile product-tile-dark" id="ocs-config">
       <div class="container container-narrow tile-stack">
         <h2 class="display-lg">OCS 题库配置</h2>
-        <p class="lead lead-on-dark">两种纯前端模式，复制到 OCS 即刻生效。</p>
-
-        <div class="ocs-mode-switcher" id="ocs-mode-switcher" role="tablist" aria-label="选择配置模式">
-          <button class="ocs-mode-chip is-selected" type="button" role="tab" aria-selected="true" data-mode="offline">
-            完整离线版
-          </button>
-          <button class="ocs-mode-chip" type="button" role="tab" aria-selected="false" data-mode="online">
-            在线精简版
-          </button>
-        </div>
+        <p class="lead lead-on-dark">两种纯前端模式，复制到 OCS 即刻生效</p>
 
         <div class="cta-row">
           <button class="button-primary" id="copy-ocs-btn" type="button" disabled>一键复制配置</button>
@@ -109,11 +103,18 @@
         </div>
         <div class="copy-feedback" id="copy-feedback" role="status" aria-live="polite"></div>
 
+        <!-- Unified Dark Artifact with integrated macOS-style Segmented Control -->
         <div class="product-stage ocs-stage">
           <div class="ocs-artifact">
             <div class="ocs-artifact-head">
-              <span class="ocs-artifact-file" id="ocs-artifact-file">ocs-config.json</span>
-              <span class="ocs-artifact-meta" id="ocs-config-meta">加载中…</span>
+              <div class="ocs-segmented" id="ocs-mode-switcher" role="tablist" aria-label="选择配置模式">
+                <button class="ocs-seg-btn is-selected" type="button" role="tab" aria-selected="true" data-mode="offline">完整离线版</button>
+                <button class="ocs-seg-btn" type="button" role="tab" aria-selected="false" data-mode="online">在线精简版</button>
+              </div>
+              <div class="ocs-artifact-info">
+                <span class="ocs-artifact-file" id="ocs-artifact-file">ocs-config.json</span>
+                <span class="ocs-artifact-meta" id="ocs-config-meta">加载中…</span>
+              </div>
             </div>
             <label class="sr-only" for="ocs-config-textarea">OCS 题库配置 JSON</label>
             <textarea
@@ -132,7 +133,7 @@
         </div>
 
         <p class="dark-footnote">
-          粘贴至 OCS「通用 → 全局设置 → 题库配置 → 自定义题库」保存即可，切勿经微信或 QQ 聊天框转发。
+          粘贴至 OCS「通用 → 全局设置 → 题库配置 → 自定义题库」保存即可，切勿经微信或 QQ 转发。
         </p>
       </div>
     </section>
@@ -142,29 +143,42 @@
       <div class="container container-narrow">
         <div class="tile-stack">
           <h2 class="display-lg">独立脚本</h2>
-          <p class="lead">剥离自 OCS，直连本题库，安装即用。</p>
+          <p class="lead">剥离自 OCS，直连本题库，安装即用</p>
           <div class="cta-row">
-            <a class="button-store-hero" href="./userscript/engforge-zhs.user.js">安装脚本</a>
+            <a class="button-primary" href="./userscript/engforge-zhs.user.js">安装脚本</a>
             <a class="text-link cta-link" href="https://github.com/majianyu2007/nwafu-engforge-2026/blob/main/userscript/engforge-zhs.user.js" target="_blank" rel="noopener">查看源码 ›</a>
           </div>
           <p class="caption-line">
             需先安装
             <a class="text-link inline-caption-link" href="https://docs.scriptcat.org/" target="_blank" rel="noopener">ScriptCat 脚本猫</a>
             或
-            <a class="text-link inline-caption-link" href="https://www.tampermonkey.net/" target="_blank" rel="noopener">Tampermonkey 篡改猴</a>。
+            <a class="text-link inline-caption-link" href="https://www.tampermonkey.net/" target="_blank" rel="noopener">Tampermonkey 篡改猴</a>
           </p>
         </div>
 
         <div class="utility-grid">
           <article class="store-utility-card">
+            <svg class="card-icon" width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+              <rect x="4" y="5" width="20" height="18" rx="4" stroke="currentColor" stroke-width="1.6" />
+              <path d="M9.5 14.2L12.5 17.2L18.5 11.2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
             <h3>专注作业页</h3>
             <p>仅在智慧树 <code>examloop</code> 作业页生效，移除无关刷课模块。</p>
           </article>
           <article class="store-utility-card">
+            <svg class="card-icon" width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+              <ellipse cx="14" cy="8.5" rx="8.5" ry="3.5" stroke="currentColor" stroke-width="1.6" />
+              <path d="M5.5 8.5V19.5C5.5 21.43 9.31 23 14 23C18.69 23 22.5 21.43 22.5 19.5V8.5" stroke="currentColor" stroke-width="1.6" />
+              <path d="M5.5 14C5.5 15.93 9.31 17.5 14 17.5C18.69 17.5 22.5 15.93 22.5 14" stroke="currentColor" stroke-width="1.6" />
+            </svg>
             <h3>直连静态题库</h3>
-            <p>自动同步本站 297 题，覆盖单选、多选、判断、多空填空及配图题。</p>
+            <p>自动同步本站 297 题，支持单选、多选、判断与多空填空。</p>
           </article>
           <article class="store-utility-card">
+            <svg class="card-icon" width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+              <path d="M14 4L22 7.2V13.8C22 18.8 18.6 22.7 14 24C9.4 22.7 6 18.8 6 13.8V7.2L14 4Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" />
+              <path d="M10.5 14.2L12.8 16.5L17.6 11.7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
             <h3>人工核对交卷</h3>
             <p>支持整卷填写、调速与随时暂停，绝不自动交卷。</p>
           </article>
@@ -176,8 +190,8 @@
     <section class="tile product-tile-dark-3" id="coverage">
       <div class="container container-narrow">
         <div class="tile-stack coverage-head">
-          <h2 class="display-lg">11 项作业。297 题。100.0 分。</h2>
-          <p class="lead-airy lead-on-dark">全部为固定试卷（ASSIGN），仅题目乱序，非随机抽题。</p>
+          <h2 class="display-lg">11 项作业 · 297 题 · 100.0 分</h2>
+          <p class="lead-airy lead-on-dark">全部为固定试卷，仅题目乱序，非随机抽题</p>
         </div>
 
         <div class="specs-scroll">
@@ -208,12 +222,12 @@
       <div class="container container-narrow">
         <div class="tile-stack bank-head">
           <h2 class="display-lg">题库检索</h2>
-          <p class="lead">按关键词、工种或题型即时查找。</p>
+          <p class="lead">按关键词、工种或题型即时查找</p>
         </div>
 
         <div class="bank-controls">
           <div class="search-wrap">
-            <svg class="search-icon" width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <svg class="search-icon" width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true">
               <circle cx="7" cy="7" r="5.25" stroke="currentColor" stroke-width="1.5" />
               <path d="M11 11L14.25 14.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
             </svg>
@@ -228,18 +242,20 @@
           </div>
 
           <div class="chip-group" id="module-chips" role="group" aria-label="按工种筛选"></div>
-          <div class="chip-group" id="type-chips" role="group" aria-label="按题型筛选">
-            <button class="configurator-option-chip is-selected" type="button" data-type="all">全部</button>
-            <button class="configurator-option-chip" type="button" data-type="single">单选</button>
-            <button class="configurator-option-chip" type="button" data-type="multiple">多选</button>
-            <button class="configurator-option-chip" type="button" data-type="judgement">判断</button>
-            <button class="configurator-option-chip" type="button" data-type="completion">填空</button>
-          </div>
         </div>
 
-        <div class="bank-status-bar">
-          <span id="bank-count-label">正在加载题库…</span>
-          <button class="button-pearl-capsule" id="reset-filter-btn" type="button" hidden>重置筛选</button>
+        <div class="bank-toolbar">
+          <div class="bank-toolbar-left">
+            <span id="bank-count-label">正在加载题库…</span>
+            <button class="text-link reset-link" id="reset-filter-btn" type="button" hidden>重置</button>
+          </div>
+          <div class="type-segmented" id="type-chips" role="tablist" aria-label="按题型筛选">
+            <button class="type-seg-btn is-selected" type="button" role="tab" aria-selected="true" data-type="all">全部</button>
+            <button class="type-seg-btn" type="button" role="tab" aria-selected="false" data-type="single">单选</button>
+            <button class="type-seg-btn" type="button" role="tab" aria-selected="false" data-type="multiple">多选</button>
+            <button class="type-seg-btn" type="button" role="tab" aria-selected="false" data-type="judgement">判断</button>
+            <button class="type-seg-btn" type="button" role="tab" aria-selected="false" data-type="completion">填空</button>
+          </div>
         </div>
 
         <div class="question-list" id="question-list" aria-live="polite"></div>
