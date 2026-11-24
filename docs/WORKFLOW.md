@@ -17,8 +17,9 @@ nwafu-engforge-2026/
 ├── raw/
 │   └── homeworks-sanitized.json     # 脱敏后的智慧树原始作业接口数据（不含学生隐私）
 ├── data/
-│   ├── questions.json               # 清洗构建后的完整静态题库（供网页与独立脚本使用）
-│   └── ocs-config.json              # 纯前端免后端 OCS AnswererWrapper[] 配置
+│   ├── questions.json               # 清洗构建后的完整静态题库（供网页、在线 OCS 与独立脚本使用）
+│   ├── ocs-config.json              # OCS 完整离线版配置（data: 本地回显，0 安全警告）
+│   └── ocs-config-online.json       # OCS 在线精简版配置（逐题请求本站 questions.json，约 2 KB）
 ├── userscript/
 │   ├── engforge-zhs.user.js         # 独立智慧树自动答题油猴脚本
 │   └── engforge-zhs.meta.js         # 油猴自动更新元数据
@@ -73,7 +74,7 @@ nwafu-engforge-2026/
 node scripts/analyze-homeworks.mjs
 ```
 
-2026 级工程训练核验结论：
+2026 年 11 月开展的工程训练智慧树课程核验结论：
 
 1. **接口标志**：全部 11 项作业的 `examPaperType` 均为 `ASSIGN`（固定指定试卷），且 11 份作业卷面满分总和恰好等于 **100.0 分**（共 **297 题**，无重复 `questionId`）。
 2. **`questionId` 分布**：绝大多数作业的 `questionId` 为连续自然数区间（0 空缺或仅 1 处老师删题空缺），展示顺序被打乱（`inIdOrder=false`），部分批次题干自带原序号（如 `(1)..(11)`、`1..12`）亦完整连续。
@@ -119,18 +120,16 @@ node scripts/analyze-homeworks.mjs
 
 ---
 
-## 4. 纯前端 OCS 题库配置原理
+## 4. 纯前端双模式 OCS 题库配置原理
 
 通过阅读 `ocsjs/ocsjs` 源码（`defaultAnswerWrapperHandler`、`request.ts`、`answer-wrapper-security.ts`）确认：
 
 1. OCS 的 `handler(responseData)` **只接收响应体，不接收 `env.title`**；
 2. 静态 GitHub Pages 不支持服务端动态检索，且按完整题干作为文件路径容易受 `/`、长文件名限制和空格差异影响；
-3. 利用 `url: "data:text/plain;charset=utf-8,${title}"` 搭配 `type: "fetch"` + `contentType: "text"`：
-   - OCS 替换 `${title}` 为 `encodeURIComponent(title)` 后，浏览器原生 `fetch()` 直接零延迟本地回显解码后的原题干给 `handler(res)`；
-   - `handler` 内部携带归一化索引（297 题总配置仅约 56 KB），支持精确归一化、去题号前缀、去图片 URL（适配 4 道配图题）和 Bigram Dice 模糊匹配；
-   - 多空/多选答案使用 OCS 第一优先级分隔符 `===` 拼接，防止答案内容中的 `；` 被误拆分；
-   - 严格避开 OCS `answer-wrapper-security.ts` 全部 `DANGEROUS_PATTERNS` 与 `\u` 字符串转义检测，实现 **0 安全警告**；
-   - `type: "fetch"` 不受标准版 OCS `@connect` 白名单拦截（在 `examloop.zhihuishu.com` 真机 Chrome 中实测 297/297 全部通过）。
+3. 本项目因此同时提供两种纯前端免后端配置，用户可在主页按需切换：
+   - **完整离线版（`data/ocs-config.json`）**：使用 `url: "data:text/plain;charset=utf-8,${title}"` + `type: "fetch"` + 297 题内联匹配引擎。OCS 替换 `${title}` 后由浏览器原生 `fetch()` 本地回显解码后的题干给 `handler(res)`；避开全部 `answer-wrapper-security.ts` 规则，**0 安全警告**、零网络请求、297/297 命中。
+   - **在线精简版（`data/ocs-config-online.json`，约 2 KB）**：使用 `url: "https://mjy.js.org/nwafu-engforge-2026/data/questions.json"` + `type: "fetch"` + `contentType: "json"`。每答一题向本站请求静态题库，再从当前智慧树作业页 DOM 读取题干匹配。配置极短且题库更新自动生效；唯一代价是 OCS 保存时会弹一次 `document` 风险确认提示，点击「我了解风险，仍然使用」即可。
+   - 两种模式均使用 OCS 第一优先级分隔符 `===` 拼接多空/多选答案，防止答案内容中的 `；` 被误拆分，且 `type: "fetch"` 不受标准版 OCS `@connect` 白名单拦截。
 
 ---
 

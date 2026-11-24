@@ -184,7 +184,37 @@ for (const q of bank.questions) {
   }
 }
 
-console.log(`✓ OCS handler + resolver simulation: ${ocsExactHits}/297 exact (100.0%), ${ocsImageUrlHits}/4 image-URL titles, ${ocsNoPrefixHits} prefix-stripped titles`);
+console.log(`✓ OCS offline handler + resolver simulation: ${ocsExactHits}/297 exact (100.0%), ${ocsImageUrlHits}/4 image-URL titles, ${ocsNoPrefixHits} prefix-stripped titles`);
+
+// 5b. Validate data/ocs-config-online.json (online lightweight mode)
+const ocsOnlineConfig = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/ocs-config-online.json'), 'utf8'));
+assert.ok(Array.isArray(ocsOnlineConfig) && ocsOnlineConfig.length === 1, 'Expected 1 online OCS AnswererWrapper');
+const onlineWrapper = ocsOnlineConfig[0];
+assert.equal(onlineWrapper.method, 'get');
+assert.equal(onlineWrapper.type, 'fetch');
+assert.equal(onlineWrapper.contentType, 'json');
+assert.ok(onlineWrapper.url.endsWith('/data/questions.json'));
+
+// Online handler uses document.querySelector intentionally — verify no OTHER dangerous patterns
+const { stripped: onlineStripped, findings: onlineFindings } = stripCommentsAndStrings(onlineWrapper.handler);
+for (const [re, name] of DANGEROUS_PATTERNS) {
+  if (name === 'document') continue;
+  if (re.test(onlineStripped)) onlineFindings.push(`DANGEROUS_PATTERN: ${name}`);
+}
+assert.deepEqual(onlineFindings, [], `Unexpected security findings in online handler: ${onlineFindings.join('; ')}`);
+
+const onlineFn = Function('document', onlineWrapper.handler);
+let onlineHits = 0;
+for (const q of bank.questions) {
+  const fakeDoc = {
+    querySelector: () => ({ innerText: q.title, textContent: q.title })
+  };
+  const handler = onlineFn(fakeDoc);
+  const info = handler(bank);
+  assert.ok(Array.isArray(info) && info[1] === q.ocsAnswer, `Online OCS handler failed on ${q.id}`);
+  onlineHits++;
+}
+console.log(`✓ OCS online lightweight handler simulation: ${onlineHits}/297 exact (100.0%)`);
 
 // 6. Verify all 4 local question images exist and are valid PNGs
 for (const q of bank.questions) {

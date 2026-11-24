@@ -1,6 +1,6 @@
 [
   {
-    "name": "EngForge 2026 工程训练题库",
+    "name": "EngForge 2026 工程训练题库（完整离线版）",
     "homepage": "https://mjy.js.org/nwafu-engforge-2026/",
     "url": "data:text/plain;charset=utf-8,${title}",
     "method": "get",

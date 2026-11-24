@@ -9,11 +9,34 @@ const PAGE_SIZE = 24;
 
 const state = {
   bank: null,
-  ocsText: '',
+  ocsMode: 'offline',
+  ocsConfigs: {
+    offline: '',
+    online: ''
+  },
   moduleFilter: 'all',
   typeFilter: 'all',
   query: '',
   visibleCount: PAGE_SIZE
+};
+
+const OCS_MODE_META = {
+  offline: {
+    filename: 'ocs-config.json',
+    href: './data/ocs-config.json',
+    download: 'engforge-2026-ocs-config.json',
+    badge: (count, kb) => `${count} 题全量离线 · ${kb} KB · 0 安全警告`,
+    note: '完整离线版：297 题内联在本地匹配引擎中，无需联网、0 安全警告；若标准版 OCS 保存时提示域名白名单警告，点确认忽略即可。',
+    copied: '已复制「完整离线版」配置（纯离线 297 题，0 安全警告），请直接粘贴到 OCS「自定义题库」保存。'
+  },
+  online: {
+    filename: 'ocs-config-online.json',
+    href: './data/ocs-config-online.json',
+    download: 'engforge-2026-ocs-config-online.json',
+    badge: (_count, kb) => `实时拉取本站题库 · ${kb} KB · 配置极简`,
+    note: '在线精简版：每次做题向本站静态 JSON 请求一次数据，题库更新自动生效；因需读取当前页面题干，OCS 保存时会弹一次 document 安全提示，点「仍要使用」即可。',
+    copied: '已复制「在线精简版」配置（仅约 2 KB，自动请求本站静态题库），粘贴到 OCS 保存即可。'
+  }
 };
 
 const els = {
@@ -22,10 +45,12 @@ const els = {
   metricModules: document.getElementById('metric-modules'),
   metricQuestions: document.getElementById('metric-questions'),
   metricScore: document.getElementById('metric-score'),
+  ocsModeSwitcher: document.getElementById('ocs-mode-switcher'),
+  ocsFile: document.getElementById('ocs-artifact-file'),
   ocsMeta: document.getElementById('ocs-config-meta'),
+  ocsModeNote: document.getElementById('ocs-mode-note'),
+  downloadOcsLink: document.getElementById('download-ocs-link'),
   ocsTextarea: document.getElementById('ocs-config-textarea'),
-  ocsRawDrawer: document.getElementById('ocs-raw-drawer'),
-  toggleRawOcsBtn: document.getElementById('toggle-raw-ocs-btn'),
   copyOcsBtn: document.getElementById('copy-ocs-btn'),
   copyFeedback: document.getElementById('copy-feedback'),
   searchInput: document.getElementById('bank-search-input'),
@@ -228,31 +253,54 @@ function renderQuestionList() {
   }
 }
 
+function renderOcsConfig() {
+  const mode = state.ocsMode;
+  const text = state.ocsConfigs[mode];
+  const cfg = OCS_MODE_META[mode];
+  if (!text || !cfg) return;
+
+  const sizeKb = (new Blob([text]).size / 1024).toFixed(1);
+  const count = state.bank?.meta?.totalQuestions || 297;
+
+  els.ocsFile.textContent = cfg.filename;
+  els.ocsMeta.textContent = cfg.badge(count, sizeKb);
+  els.ocsModeNote.textContent = cfg.note;
+  els.downloadOcsLink.href = cfg.href;
+  els.downloadOcsLink.setAttribute('download', cfg.download);
+  els.ocsTextarea.value = text;
+  els.copyOcsBtn.disabled = false;
+
+  els.ocsModeSwitcher.querySelectorAll('button[data-mode]').forEach((btn) => {
+    const active = btn.dataset.mode === mode;
+    btn.classList.toggle('is-selected', active);
+    btn.setAttribute('aria-selected', String(active));
+  });
+}
+
 function bindEvents() {
+  els.ocsModeSwitcher.addEventListener('click', (e) => {
+    const btn = e.target.closest('button[data-mode]');
+    if (!btn) return;
+    state.ocsMode = btn.dataset.mode;
+    els.copyFeedback.textContent = '';
+    renderOcsConfig();
+  });
+
   els.copyOcsBtn.addEventListener('click', async () => {
-    if (!state.ocsText) return;
-    const ok = await copyText(state.ocsText);
+    const text = state.ocsConfigs[state.ocsMode];
+    if (!text) return;
+    const ok = await copyText(text);
     if (ok) {
       els.copyOcsBtn.textContent = '已复制到剪贴板';
-      els.copyFeedback.textContent = '已复制完整配置（含 297 题本地匹配引擎），请直接粘贴到 OCS「自定义题库」保存。';
+      els.copyFeedback.textContent = OCS_MODE_META[state.ocsMode].copied;
       setTimeout(() => {
         els.copyOcsBtn.textContent = '一键复制配置';
       }, 2400);
     } else {
-      els.ocsRawDrawer.hidden = false;
-      els.toggleRawOcsBtn.setAttribute('aria-expanded', 'true');
-      els.toggleRawOcsBtn.textContent = '收起完整 JSON';
       els.ocsTextarea.focus();
       els.ocsTextarea.select();
-      els.copyFeedback.textContent = '已为你展开并全选完整配置，请按 Cmd/Ctrl + C 复制。';
+      els.copyFeedback.textContent = '已为你全选文本框配置，请按 Cmd/Ctrl + C 复制。';
     }
-  });
-
-  els.toggleRawOcsBtn.addEventListener('click', () => {
-    const willShow = els.ocsRawDrawer.hidden;
-    els.ocsRawDrawer.hidden = !willShow;
-    els.toggleRawOcsBtn.setAttribute('aria-expanded', String(willShow));
-    els.toggleRawOcsBtn.textContent = willShow ? '收起完整 JSON' : '查看完整 JSON';
   });
 
   els.ocsTextarea.addEventListener('focus', () => {
@@ -323,33 +371,31 @@ async function bootstrap() {
   bindEvents();
 
   try {
-    const [bankRes, ocsRes] = await Promise.all([
+    const [bankRes, ocsOfflineRes, ocsOnlineRes] = await Promise.all([
       fetch('./data/questions.json'),
-      fetch('./data/ocs-config.json')
+      fetch('./data/ocs-config.json'),
+      fetch('./data/ocs-config-online.json')
     ]);
     if (!bankRes.ok) throw new Error(`题库加载失败 (HTTP ${bankRes.status})`);
-    if (!ocsRes.ok) throw new Error(`OCS 配置加载失败 (HTTP ${ocsRes.status})`);
+    if (!ocsOfflineRes.ok) throw new Error(`OCS 离线配置加载失败 (HTTP ${ocsOfflineRes.status})`);
+    if (!ocsOnlineRes.ok) throw new Error(`OCS 在线配置加载失败 (HTTP ${ocsOnlineRes.status})`);
 
     const bank = await bankRes.json();
-    const ocsText = (await ocsRes.text()).trim();
-
     state.bank = bank;
-    state.ocsText = ocsText;
+    state.ocsConfigs.offline = (await ocsOfflineRes.text()).trim();
+    state.ocsConfigs.online = (await ocsOnlineRes.text()).trim();
 
     els.metricModules.textContent = `${bank.meta.totalModules} 项`;
     els.metricQuestions.textContent = `${bank.meta.totalQuestions} 题`;
     els.metricScore.textContent = `${bank.meta.totalScore.toFixed(1)} 分`;
 
-    const sizeKb = (new Blob([ocsText]).size / 1024).toFixed(1);
-    els.ocsMeta.textContent = `${bank.meta.totalQuestions} 题内联 · ${sizeKb} KB · 0 安全警告`;
-    els.ocsTextarea.value = ocsText;
-    els.copyOcsBtn.disabled = false;
-
+    renderOcsConfig();
     renderModuleChips(bank);
     renderCoverageTable(bank);
     renderQuestionList();
   } catch (err) {
     els.ocsMeta.textContent = `加载失败：${err.message}`;
+    els.ocsTextarea.value = `加载失败：${err.message}`;
     els.bankCountLabel.textContent = `加载失败：${err.message}`;
   }
 }

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>EngForge — 2026 工程训练在线题库</title>
-  <meta name="description" content="西北农林科技大学 2026 工程训练（知到智慧树新形态课程）完整在线题库，支持一键复制 OCS 网课助手纯前端题库配置，以及安装独立智慧树自动答题脚本。" />
+  <title>EngForge — 2026 年 11 月工程训练智慧树题库</title>
+  <meta name="description" content="西北农林科技大学 2026 年 11 月开展的工程训练智慧树课程题库，支持一键复制 OCS 网课助手题库配置（完整离线版 / 在线精简版），以及安装独立智慧树自动答题脚本。" />
   <link rel="stylesheet" href="./assets/styles.css" />
 </head>
 <body>
@@ -45,8 +45,8 @@
     <section class="tile product-tile-light hero-tile">
       <div class="container container-narrow tile-stack">
         <h1 class="hero-display">EngForge</h1>
-        <p class="lead">2026 工程训练在线题库。</p>
-        <p class="hero-sub">西北农林科技大学 · 知到智慧树新形态课程 · 11 项作业 297 题全收录</p>
+        <p class="lead">2026 年 11 月工程训练智慧树题库。</p>
+        <p class="hero-sub">西北农林科技大学 · 2026 年 11 月开展 · 工程训练智慧树课程 · 11 项作业 297 题全收录</p>
         <div class="cta-row">
           <a class="button-primary" href="./userscript/engforge-zhs.user.js">安装独立脚本</a>
           <a class="button-secondary-pill" href="#ocs-config">配置 OCS 题库</a>
@@ -98,41 +98,46 @@
     <section class="tile product-tile-dark" id="ocs-config">
       <div class="container container-narrow tile-stack">
         <h2 class="display-lg">OCS 题库配置</h2>
-        <p class="lead lead-on-dark">一次复制，297 题纯前端本地秒级匹配。</p>
+        <p class="lead lead-on-dark">两种模式可选。复制到 OCS 即可自动作答。</p>
+
+        <div class="ocs-mode-switcher" id="ocs-mode-switcher" role="tablist" aria-label="选择 OCS 题库配置模式">
+          <button class="ocs-mode-chip is-selected" type="button" role="tab" aria-selected="true" data-mode="offline">
+            完整离线版 · 纯离线 0 警告
+          </button>
+          <button class="ocs-mode-chip" type="button" role="tab" aria-selected="false" data-mode="online">
+            在线精简版 · 逐题请求本站数据
+          </button>
+        </div>
+
         <div class="cta-row">
           <button class="button-primary" id="copy-ocs-btn" type="button" disabled>一键复制配置</button>
           <a class="text-link-on-dark cta-link" href="https://docs.ocsjs.com/docs/work" target="_blank" rel="noopener">OCS 官方文档 ›</a>
         </div>
         <div class="copy-feedback" id="copy-feedback" role="status" aria-live="polite"></div>
 
-        <!-- Clean Recessed Product Artifact: hides 56 KB inline payload behind crisp 10-line preview -->
+        <!-- Direct Copyable OCS Config Artifact -->
         <div class="product-stage ocs-stage">
           <div class="ocs-artifact">
             <div class="ocs-artifact-head">
-              <span class="ocs-artifact-file">ocs-config.json</span>
+              <span class="ocs-artifact-file" id="ocs-artifact-file">ocs-config.json</span>
               <span class="ocs-artifact-meta" id="ocs-config-meta">加载中…</span>
             </div>
-            <pre class="ocs-preview" aria-label="OCS 题库配置结构预览"><code>[
-  {
-    "name": "EngForge 2026 工程训练题库",
-    "homepage": "https://mjy.js.org/nwafu-engforge-2026/",
-    "url": "data:text/plain;charset=utf-8,${title}",
-    "method": "get",
-    "type": "fetch",
-    "contentType": "text",
-    "handler": "/* 内置 297 题离线匹配引擎 · 零后端 · 0 安全警告 */"
-  }
-]</code></pre>
+            <label class="sr-only" for="ocs-config-textarea">OCS 题库配置 JSON</label>
+            <textarea
+              id="ocs-config-textarea"
+              class="ocs-visible-textarea"
+              readonly
+              spellcheck="false"
+              rows="12"
+              aria-label="OCS 题库配置 JSON"
+            >正在加载题库配置…</textarea>
             <div class="ocs-artifact-foot">
-              <span class="ocs-artifact-note">支持标准版与全域名版 OCS；若保存时提示白名单警告，确认忽略即可正常作答。</span>
+              <span class="ocs-artifact-note" id="ocs-mode-note">
+                完整离线版：297 题内联在本地匹配引擎中，零网络请求、0 安全警告；若标准版 OCS 保存时提示白名单警告，点确认忽略即可。
+              </span>
               <div class="ocs-artifact-links">
-                <button class="text-link-on-dark link-btn" id="toggle-raw-ocs-btn" type="button" aria-expanded="false">查看完整 JSON</button>
-                <a class="text-link-on-dark" href="./data/ocs-config.json" download="engforge-2026-ocs-config.json">下载</a>
+                <a class="text-link-on-dark" id="download-ocs-link" href="./data/ocs-config.json" download="engforge-2026-ocs-config.json">下载 JSON</a>
               </div>
-            </div>
-            <div class="ocs-raw-drawer" id="ocs-raw-drawer" hidden>
-              <label class="sr-only" for="ocs-config-textarea">完整 OCS 题库配置 JSON</label>
-              <textarea id="ocs-config-textarea" class="ocs-raw-textarea" readonly spellcheck="false" rows="8"></textarea>
             </div>
           </div>
         </div>
@@ -141,18 +146,18 @@
         <ol class="minimal-steps">
           <li>
             <span class="minimal-step-idx">01</span>
-            <h3>复制配置</h3>
-            <p>点击上方按钮获取完整 JSON，切勿经微信或 QQ 中转粘贴。</p>
+            <h3>选择模式并复制</h3>
+            <p>「完整离线版」免联网且 0 警告；「在线精简版」仅约 2 KB，每次答题自动拉取本站最新题库 JSON。</p>
           </li>
           <li>
             <span class="minimal-step-idx">02</span>
             <h3>粘贴到 OCS</h3>
-            <p>进入 OCS「通用 → 全局设置 → 题库配置 → 自定义题库」粘贴保存。</p>
+            <p>进入 OCS「通用 → 全局设置 → 题库配置 → 自定义题库」粘贴保存（切勿经微信/QQ 转发）。</p>
           </li>
           <li>
             <span class="minimal-step-idx">03</span>
-            <h3>自动作答</h3>
-            <p>打开智慧树新形态作业页，全题型 100% 命中并自动填写。</p>
+            <h3>打开作业自动作答</h3>
+            <p>进入智慧树新形态作业页，单选、多选、判断、多空填空及配图题均 100% 命中。</p>
           </li>
         </ol>
       </div>
@@ -311,7 +316,8 @@
           <h4>静态数据与脚本</h4>
           <ul>
             <li><a href="./data/questions.json" target="_blank" rel="noopener">questions.json</a></li>
-            <li><a href="./data/ocs-config.json" target="_blank" rel="noopener">ocs-config.json</a></li>
+            <li><a href="./data/ocs-config.json" target="_blank" rel="noopener">ocs-config.json（离线版）</a></li>
+            <li><a href="./data/ocs-config-online.json" target="_blank" rel="noopener">ocs-config-online.json（在线版）</a></li>
             <li><a href="./userscript/engforge-zhs.user.js" target="_blank" rel="noopener">engforge-zhs.user.js</a></li>
             <li><a href="https://github.com/majianyu2007/nwafu-engforge-2026/blob/main/docs/WORKFLOW.md" target="_blank" rel="noopener">开发与复用文档</a></li>
           </ul>
@@ -328,8 +334,8 @@
       </div>
 
       <div class="footer-legal">
-        <p>EngForge · Engineering Training Question Bank · 西北农林科技大学 2026 年秋冬学期工程训练课程题库整理。</p>
-        <p>独立脚本基于 <a href="https://github.com/ocsjs/ocsjs" target="_blank" rel="noopener">OCSJS</a>（MIT License）智慧树答题逻辑精简改编，仅供课程学习与复习参考。</p>
+        <p>EngForge · Engineering Training Question Bank · 西北农林科技大学 2026 年 11 月开展的工程训练智慧树课程题库。</p>
+        <p>独立脚本基于 <a href="https://github.com/ocsjs/ocsjs" target="_blank" rel="noopener">OCSJS</a>（MIT License）智慧树答题逻辑精简改编。</p>
       </div>
     </div>
   </footer>

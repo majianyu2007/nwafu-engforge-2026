@@ -1,0 +1,13 @@
+[
+  {
+    "name": "EngForge 2026 工程训练题库（在线精简版）",
+    "homepage": "https://mjy.js.org/nwafu-engforge-2026/",
+    "url": "https://mjy.js.org/nwafu-engforge-2026/data/questions.json",
+    "method": "get",
+    "type": "fetch",
+    "contentType": "json",
+    "responseType": "json",
+    "headers": {},
+    "handler": "return (res) => {\n  const list = res && res.questions;\n  if (!Array.isArray(list) || !list.length) return undefined;\n  const el = document.querySelector(\".question-area-content div.flex-1 .mb-\\\\[32px\\\\] .text-mainText.font-medium\") || document.querySelector(\".question-area-content .text-mainText.font-medium\");\n  const raw = el ? (el.innerText || el.textContent || \"\") : \"\";\n  const n = (s) => String(s || \"\").replace(/https?:\\/\\/\\S+/gi, \"\").replace(/\\[图片\\d+\\]/g, \"\").normalize(\"NFKC\").toLowerCase().replace(/[^\\p{L}\\p{N}]/gu, \"\");\n  const s0 = (s) => s.replace(/^\\d+/, \"\");\n  const q = n(raw);\n  if (!q) return undefined;\n  for (const item of list) { if (n(item.title) === q) return [item.title, item.ocsAnswer]; }\n  const qs = s0(q);\n  if (qs.length >= 6) { for (const item of list) { if (s0(n(item.title)) === qs) return [item.title, item.ocsAnswer]; } }\n  let best = null, bestScore = 0;\n  const bi = (s) => { const m = new Map(); for (let i = 0; i < s.length - 1; i++) { const g = s.slice(i, i + 2); m.set(g, (m.get(g) || 0) + 1); } return m; };\n  const qm = bi(q);\n  for (const item of list) {\n    const k = n(item.title);\n    if (q.length >= 8 && (k.includes(q) || q.includes(k))) { const r = Math.min(q.length, k.length) / Math.max(q.length, k.length); if (r > bestScore) { bestScore = r; best = item; } continue; }\n    if (q.length < 2 || k.length < 2) continue;\n    const km = bi(k); let hit = 0;\n    for (const [g, c] of qm) { const kc = km.get(g); if (kc) hit += c < kc ? c : kc; }\n    const sc = (2 * hit) / (q.length + k.length - 2);\n    if (sc > bestScore) { bestScore = sc; best = item; }\n  }\n  return best && bestScore >= 0.65 ? [best.title, best.ocsAnswer] : undefined;\n}"
+  }
+]

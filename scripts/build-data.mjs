@@ -260,9 +260,9 @@ const questionBank = {
   meta: {
     project: 'EngForge',
     fullName: 'Engineering Training Question Bank',
-    course: '西北农林科技大学 · 工程训练（2026年秋冬学期）',
+    course: '西北农林科技大学 · 2026 年 11 月开展的工程训练智慧树课程',
     platform: '知到智慧树新形态课程 (examloop.zhihuishu.com)',
-    version: '2026.1.1',
+    version: '2026.1.2',
     generatedAt: '2026-11-24',
     paperMode: 'ASSIGN',
     totalModules: modules.length,
@@ -278,7 +278,7 @@ const questionBank = {
 fs.mkdirSync(path.join(ROOT, 'data'), { recursive: true });
 fs.writeFileSync(path.join(ROOT, 'data/questions.json'), JSON.stringify(questionBank, null, 2) + '\n', 'utf8');
 
-// Build compact OCS AnswererWrapper[] config
+// 1. Offline Full OCS AnswererWrapper[] config (data: URI echo, 0 security warnings, 0 network requests)
 const compactEntries = questions.map((q) => [normalizeForKey(q.title), q.title, q.ocsAnswer]);
 
 const keySet = new Set();
@@ -310,9 +310,9 @@ const ocsHandlerCode =
   `return best&&bestScore>=0.65?[best[1],best[2]]:undefined;` +
   `}`;
 
-const ocsConfig = [
+const ocsConfigOffline = [
   {
-    name: 'EngForge 2026 工程训练题库',
+    name: 'EngForge 2026 工程训练题库（完整离线版）',
     homepage: SITE_URL,
     url: 'data:text/plain;charset=utf-8,${title}',
     method: 'get',
@@ -324,12 +324,60 @@ const ocsConfig = [
   }
 ];
 
-fs.writeFileSync(path.join(ROOT, 'data/ocs-config.json'), JSON.stringify(ocsConfig, null, 2) + '\n', 'utf8');
+fs.writeFileSync(path.join(ROOT, 'data/ocs-config.json'), JSON.stringify(ocsConfigOffline, null, 2) + '\n', 'utf8');
+
+// 2. Online Lightweight OCS AnswererWrapper[] config (fetches static data/questions.json per question)
+const ocsOnlineHandlerCode = [
+  'return (res) => {',
+  '  const list = res && res.questions;',
+  '  if (!Array.isArray(list) || !list.length) return undefined;',
+  '  const el = document.querySelector(".question-area-content div.flex-1 .mb-\\\\[32px\\\\] .text-mainText.font-medium") || document.querySelector(".question-area-content .text-mainText.font-medium");',
+  '  const raw = el ? (el.innerText || el.textContent || "") : "";',
+  '  const n = (s) => String(s || "").replace(/https?:\\/\\/\\S+/gi, "").replace(/\\[图片\\d+\\]/g, "").normalize("NFKC").toLowerCase().replace(/[^\\p{L}\\p{N}]/gu, "");',
+  '  const s0 = (s) => s.replace(/^\\d+/, "");',
+  '  const q = n(raw);',
+  '  if (!q) return undefined;',
+  '  for (const item of list) { if (n(item.title) === q) return [item.title, item.ocsAnswer]; }',
+  '  const qs = s0(q);',
+  '  if (qs.length >= 6) { for (const item of list) { if (s0(n(item.title)) === qs) return [item.title, item.ocsAnswer]; } }',
+  '  let best = null, bestScore = 0;',
+  '  const bi = (s) => { const m = new Map(); for (let i = 0; i < s.length - 1; i++) { const g = s.slice(i, i + 2); m.set(g, (m.get(g) || 0) + 1); } return m; };',
+  '  const qm = bi(q);',
+  '  for (const item of list) {',
+  '    const k = n(item.title);',
+  '    if (q.length >= 8 && (k.includes(q) || q.includes(k))) { const r = Math.min(q.length, k.length) / Math.max(q.length, k.length); if (r > bestScore) { bestScore = r; best = item; } continue; }',
+  '    if (q.length < 2 || k.length < 2) continue;',
+  '    const km = bi(k); let hit = 0;',
+  '    for (const [g, c] of qm) { const kc = km.get(g); if (kc) hit += c < kc ? c : kc; }',
+  '    const sc = (2 * hit) / (q.length + k.length - 2);',
+  '    if (sc > bestScore) { bestScore = sc; best = item; }',
+  '  }',
+  '  return best && bestScore >= 0.65 ? [best.title, best.ocsAnswer] : undefined;',
+  '}'
+].join('\n');
+
+const ocsConfigOnline = [
+  {
+    name: 'EngForge 2026 工程训练题库（在线精简版）',
+    homepage: SITE_URL,
+    url: `${SITE_URL}data/questions.json`,
+    method: 'get',
+    type: 'fetch',
+    contentType: 'json',
+    responseType: 'json',
+    headers: {},
+    handler: ocsOnlineHandlerCode
+  }
+];
+
+fs.writeFileSync(path.join(ROOT, 'data/ocs-config-online.json'), JSON.stringify(ocsConfigOnline, null, 2) + '\n', 'utf8');
 
 const qSize = fs.statSync(path.join(ROOT, 'data/questions.json')).size;
 const oSize = fs.statSync(path.join(ROOT, 'data/ocs-config.json')).size;
+const olSize = fs.statSync(path.join(ROOT, 'data/ocs-config-online.json')).size;
 console.log(`Built data/questions.json (${(qSize / 1024).toFixed(1)} KB, ${questions.length} questions, ${cleanedLog.length} cleaned)`);
-console.log(`Built data/ocs-config.json (${(oSize / 1024).toFixed(1)} KB)`);
+console.log(`Built data/ocs-config.json (${(oSize / 1024).toFixed(1)} KB, offline full)`);
+console.log(`Built data/ocs-config-online.json (${(olSize / 1024).toFixed(1)} KB, online lightweight)`);
 for (const c of cleanedLog) {
   console.log(`  [cleaned] [${c.module}] ${c.id}: ${c.note}`);
   console.log(`            before: ${JSON.stringify(c.raw)}`);
