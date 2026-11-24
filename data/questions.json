@@ -1,0 +1,9215 @@
+{
+  "meta": {
+    "project": "EngForge",
+    "fullName": "Engineering Training Question Bank",
+    "course": "西北农林科技大学 · 工程训练（2026年秋冬学期）",
+    "platform": "知到智慧树新形态课程 (examloop.zhihuishu.com)",
+    "version": "2026.1.0",
+    "generatedAt": "2026-11-24",
+    "paperMode": "ASSIGN",
+    "totalModules": 11,
+    "totalQuestions": 297,
+    "totalScore": 100,
+    "typeTotals": {
+      "single": 111,
+      "multiple": 6,
+      "judgement": 64,
+      "completion": 116
+    }
+  },
+  "modules": [
+    {
+      "id": 4537996,
+      "paperId": 448595936,
+      "name": "装配",
+      "homeworkTitle": "作业任务装配作业",
+      "examPaperType": "ASSIGN",
+      "questionCount": 12,
+      "totalScore": 7.2,
+      "counts": {
+        "single": 0,
+        "multiple": 0,
+        "judgement": 0,
+        "completion": 12
+      }
+    },
+    {
+      "id": 4537990,
+      "paperId": 448596937,
+      "name": "机电一体化",
+      "homeworkTitle": "作业任务机电一体化",
+      "examPaperType": "ASSIGN",
+      "questionCount": 18,
+      "totalScore": 10.8,
+      "counts": {
+        "single": 0,
+        "multiple": 0,
+        "judgement": 0,
+        "completion": 18
+      }
+    },
+    {
+      "id": 4537985,
+      "paperId": 448597968,
+      "name": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "examPaperType": "ASSIGN",
+      "questionCount": 31,
+      "totalScore": 8.2,
+      "counts": {
+        "single": 11,
+        "multiple": 0,
+        "judgement": 12,
+        "completion": 8
+      }
+    },
+    {
+      "id": 4537981,
+      "paperId": 448598952,
+      "name": "特种加工",
+      "homeworkTitle": "作业任务特种加工",
+      "examPaperType": "ASSIGN",
+      "questionCount": 14,
+      "totalScore": 5.5,
+      "counts": {
+        "single": 5,
+        "multiple": 3,
+        "judgement": 0,
+        "completion": 6
+      }
+    },
+    {
+      "id": 4537979,
+      "paperId": 448600024,
+      "name": "数控加工",
+      "homeworkTitle": "作业任务数控加工",
+      "examPaperType": "ASSIGN",
+      "questionCount": 17,
+      "totalScore": 5.1,
+      "counts": {
+        "single": 12,
+        "multiple": 1,
+        "judgement": 0,
+        "completion": 4
+      }
+    },
+    {
+      "id": 4537976,
+      "paperId": 448601003,
+      "name": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "examPaperType": "ASSIGN",
+      "questionCount": 30,
+      "totalScore": 10.8,
+      "counts": {
+        "single": 18,
+        "multiple": 0,
+        "judgement": 0,
+        "completion": 12
+      }
+    },
+    {
+      "id": 4537974,
+      "paperId": 448602118,
+      "name": "车削",
+      "homeworkTitle": "作业任务车削",
+      "examPaperType": "ASSIGN",
+      "questionCount": 35,
+      "totalScore": 12.1,
+      "counts": {
+        "single": 9,
+        "multiple": 1,
+        "judgement": 10,
+        "completion": 15
+      }
+    },
+    {
+      "id": 4537903,
+      "paperId": 448588527,
+      "name": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "examPaperType": "ASSIGN",
+      "questionCount": 29,
+      "totalScore": 5.4,
+      "counts": {
+        "single": 13,
+        "multiple": 1,
+        "judgement": 13,
+        "completion": 2
+      }
+    },
+    {
+      "id": 4537902,
+      "paperId": 448590162,
+      "name": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "examPaperType": "ASSIGN",
+      "questionCount": 31,
+      "totalScore": 9.3,
+      "counts": {
+        "single": 12,
+        "multiple": 0,
+        "judgement": 9,
+        "completion": 10
+      }
+    },
+    {
+      "id": 4537900,
+      "paperId": 448591828,
+      "name": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "examPaperType": "ASSIGN",
+      "questionCount": 30,
+      "totalScore": 9,
+      "counts": {
+        "single": 10,
+        "multiple": 0,
+        "judgement": 10,
+        "completion": 10
+      }
+    },
+    {
+      "id": 4537897,
+      "paperId": 448593048,
+      "name": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "examPaperType": "ASSIGN",
+      "questionCount": 50,
+      "totalScore": 16.6,
+      "counts": {
+        "single": 21,
+        "multiple": 0,
+        "judgement": 10,
+        "completion": 19
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": 1014673735,
+      "module": "装配",
+      "homeworkTitle": "作业任务装配作业",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "为工具匹配正确的名称\n\n工具认识：L 型内六角扳手___，梅花扳手___，砂纸___，钩形扳手___，套筒扳手___，扭力扳手___，拔销器___，检验棒___，内卡簧钳___，三爪拉马___，塞尺___，等高块___，油石___，大理石平尺___，百分表___，绸布___，水平仪___，防松胶___。",
+      "images": [
+        "https://image.zhihuishu.com/zhs/question-import/formula/202604/ed3360cb9fe54a2ebd42b47913b1d821.png"
+      ],
+      "localImages": [
+        "assets/q-images/1014673735.png"
+      ],
+      "options": [],
+      "answers": [
+        "l",
+        "m",
+        "q",
+        "p",
+        "f",
+        "g",
+        "n",
+        "j",
+        "o",
+        "h",
+        "c",
+        "d",
+        "b",
+        "k",
+        "e",
+        "r",
+        "i",
+        "a"
+      ],
+      "rawAnswers": [
+        "l",
+        "m",
+        "q",
+        "p",
+        "f",
+        "g",
+        "n",
+        "j",
+        "o",
+        "h",
+        "c",
+        "d",
+        "b",
+        "k",
+        "e",
+        "r",
+        "i",
+        "a"
+      ],
+      "ocsAnswer": "l===m===q===p===f===g===n===j===o===h===c===d===b===k===e===r===i===a"
+    },
+    {
+      "id": 1014673736,
+      "module": "装配",
+      "homeworkTitle": "作业任务装配作业",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "（1）装配加工在产品生产过程中所处的位置是 ___，作用是 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "最后一步工序",
+        "保证产品的质量"
+      ],
+      "rawAnswers": [
+        "最后一步工序",
+        "保证产品的质量"
+      ],
+      "ocsAnswer": "最后一步工序===保证产品的质量"
+    },
+    {
+      "id": 1014673737,
+      "module": "装配",
+      "homeworkTitle": "作业任务装配作业",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "（2）将合格的 ___，按规定的技术要求 ___ 起来，并经 ___ 和 ___ 的工艺过程叫 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "零部件",
+        "连接组装",
+        "检验",
+        "调试",
+        "装配"
+      ],
+      "rawAnswers": [
+        "零部件",
+        "连接组装",
+        "检验",
+        "调试",
+        "装配"
+      ],
+      "ocsAnswer": "零部件===连接组装===检验===调试===装配"
+    },
+    {
+      "id": 1014673738,
+      "module": "装配",
+      "homeworkTitle": "作业任务装配作业",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "（3）装配工作由以下几个部分组成：___，___，___，___，___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "准备工作",
+        "组装",
+        "部装",
+        "总装",
+        "检验和调试"
+      ],
+      "rawAnswers": [
+        "准备工作",
+        "组装",
+        "部装",
+        "总装",
+        "检验和调试"
+      ],
+      "ocsAnswer": "准备工作===组装===部装===总装===检验和调试"
+    },
+    {
+      "id": 1014673739,
+      "module": "装配",
+      "homeworkTitle": "作业任务装配作业",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "（4）常用的装配方法有：___，___，___，___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "互换法",
+        "选择法",
+        "修配法",
+        "调整法"
+      ],
+      "rawAnswers": [
+        "互换法",
+        "选择法",
+        "修配法",
+        "调整法"
+      ],
+      "ocsAnswer": "互换法===选择法===修配法===调整法"
+    },
+    {
+      "id": 1014673740,
+      "module": "装配",
+      "homeworkTitle": "作业任务装配作业",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "（5）机械设备零部件常见的连接方式分为两大类，分别为 ___ 和 ___。\n常见的可拆卸连接方式有：___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "可拆卸连接",
+        "不可拆卸连接",
+        "螺纹连接；键连接；销连接等"
+      ],
+      "rawAnswers": [
+        "可拆卸连接",
+        "不可拆卸连接",
+        "螺纹连接；键连接；销连接等"
+      ],
+      "ocsAnswer": "可拆卸连接===不可拆卸连接===螺纹连接；键连接；销连接等"
+    },
+    {
+      "id": 1014673741,
+      "module": "装配",
+      "homeworkTitle": "作业任务装配作业",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "（6）常见的传动机构有 ___，___，___，___，___ 和 ___ 等六种。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "齿轮传动",
+        "蜗轮蜗杆传动",
+        "带传动",
+        "链传动",
+        "凸轮传动",
+        "连杆传动"
+      ],
+      "rawAnswers": [
+        "齿轮传动",
+        "蜗轮蜗杆传动",
+        "带传动",
+        "链传动",
+        "凸轮传动",
+        "连杆传动"
+      ],
+      "ocsAnswer": "齿轮传动===蜗轮蜗杆传动===带传动===链传动===凸轮传动===连杆传动"
+    },
+    {
+      "id": 1014673742,
+      "module": "装配",
+      "homeworkTitle": "作业任务装配作业",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "（7）工业机器人系统主要由 ___，___，___ 和 ___ 组成。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "机器人本体",
+        "控制系统",
+        "示教器",
+        "连接线缆"
+      ],
+      "rawAnswers": [
+        "机器人本体",
+        "控制系统",
+        "示教器",
+        "连接线缆"
+      ],
+      "ocsAnswer": "机器人本体===控制系统===示教器===连接线缆"
+    },
+    {
+      "id": 1014673743,
+      "module": "装配",
+      "homeworkTitle": "作业任务装配作业",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "（8）机械臂共包含六个关节七个部分，从底座向末端依次为 ___，___，___，___，___，___ 和 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "底座",
+        "肩关节",
+        "大臂",
+        "肘关节",
+        "小臂",
+        "手腕",
+        "法兰"
+      ],
+      "rawAnswers": [
+        "底座",
+        "肩关节",
+        "大臂",
+        "肘关节",
+        "小臂",
+        "手腕",
+        "法兰"
+      ],
+      "ocsAnswer": "底座===肩关节===大臂===肘关节===小臂===手腕===法兰"
+    },
+    {
+      "id": 1014673744,
+      "module": "装配",
+      "homeworkTitle": "作业任务装配作业",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "（9）操作机器人时可以使用 ___ 和 ___ 两种坐标系。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "轴坐标系",
+        "世界坐标系"
+      ],
+      "rawAnswers": [
+        "轴坐标系",
+        "世界坐标系"
+      ],
+      "ocsAnswer": "轴坐标系===世界坐标系"
+    },
+    {
+      "id": 1014673745,
+      "module": "装配",
+      "homeworkTitle": "作业任务装配作业",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "（10）五轴数控机床装配过程中水平仪的作用 ___，百分表的作用 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "检查机床床身、导轨的水平度",
+        "检测零件的形位公差"
+      ],
+      "rawAnswers": [
+        "检查机床床身、导轨的水平度",
+        "检测零件的形位公差"
+      ],
+      "ocsAnswer": "检查机床床身、导轨的水平度===检测零件的形位公差"
+    },
+    {
+      "id": 1014673746,
+      "module": "装配",
+      "homeworkTitle": "作业任务装配作业",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "（11）五轴数控机床的结构组成有 ___，___，___，___，___，___ 六部分。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "底座",
+        "主轴箱",
+        "立柱",
+        "工作台",
+        "刀库",
+        "滑鞍"
+      ],
+      "rawAnswers": [
+        "底座",
+        "主轴箱",
+        "立柱",
+        "工作台",
+        "刀库",
+        "滑鞍"
+      ],
+      "ocsAnswer": "底座===主轴箱===立柱===工作台===刀库===滑鞍"
+    },
+    {
+      "id": 1014781947,
+      "module": "机电一体化",
+      "homeworkTitle": "作业任务机电一体化",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "机电一体化技术是由 ___ 工程学科、___ 工程学科、___ 工程学科和 ___ 工程学科构成的综合技术。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "机械",
+        "电子",
+        "控制",
+        "信息"
+      ],
+      "rawAnswers": [
+        "机械",
+        "电子",
+        "控制",
+        "信息"
+      ],
+      "ocsAnswer": "机械===电子===控制===信息"
+    },
+    {
+      "id": 1014781948,
+      "module": "机电一体化",
+      "homeworkTitle": "作业任务机电一体化",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "机电一体化系统基本特点 ___、___、___、___、___ 和 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "体积小",
+        "重量轻",
+        "速度快",
+        "精度高",
+        "可靠性高",
+        "柔性好"
+      ],
+      "rawAnswers": [
+        "体积小",
+        "重量轻",
+        "速度快",
+        "精度高",
+        "可靠性高",
+        "柔性好"
+      ],
+      "ocsAnswer": "体积小===重量轻===速度快===精度高===可靠性高===柔性好"
+    },
+    {
+      "id": 1014781949,
+      "module": "机电一体化",
+      "homeworkTitle": "作业任务机电一体化",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "机电一体化系统由 ___ 部分、___ 装置、___ 和 ___ 装置组成。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "机械",
+        "执行",
+        "传感器",
+        "控制"
+      ],
+      "rawAnswers": [
+        "机械",
+        "执行",
+        "传感器",
+        "控制"
+      ],
+      "ocsAnswer": "机械===执行===传感器===控制"
+    },
+    {
+      "id": 1014781950,
+      "module": "机电一体化",
+      "homeworkTitle": "作业任务机电一体化",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "模块化生产线由 ___、___、___、___、___ 和 ___ 六个单元组成。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "上料检测站",
+        "搬运站",
+        "加工站",
+        "安装站",
+        "安装搬运站",
+        "分类站"
+      ],
+      "rawAnswers": [
+        "上料检测站",
+        "搬运站",
+        "加工站",
+        "安装站",
+        "安装搬运站",
+        "分类站"
+      ],
+      "ocsAnswer": "上料检测站===搬运站===加工站===安装站===安装搬运站===分类站"
+    },
+    {
+      "id": 1014781951,
+      "module": "机电一体化",
+      "homeworkTitle": "作业任务机电一体化",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "模块化生产线各单元工作的驱动方式为 ___ 驱动和 ___ 驱动。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "电机",
+        "气缸"
+      ],
+      "rawAnswers": [
+        "电机",
+        "气缸"
+      ],
+      "ocsAnswer": "电机===气缸"
+    },
+    {
+      "id": 1014781952,
+      "module": "机电一体化",
+      "homeworkTitle": "作业任务机电一体化",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "模块化生产线应用的传感器分为 ___、___ 和 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "红外光电传感器",
+        "电容式接近传感器",
+        "磁性位置传感器"
+      ],
+      "rawAnswers": [
+        "红外光电传感器",
+        "电容式接近传感器",
+        "磁性位置传感器"
+      ],
+      "ocsAnswer": "红外光电传感器===电容式接近传感器===磁性位置传感器"
+    },
+    {
+      "id": 1014781953,
+      "module": "机电一体化",
+      "homeworkTitle": "作业任务机电一体化",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "模块化生产线是由 ___ 控制工作的，___ 的编程语言为 ___，它的控制容量为 ___，输入 I 为 ___，输出 O 为 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "可编程控制器 PLC",
+        "PLC",
+        "梯形图语言",
+        "48 点",
+        "24 点",
+        "24 点"
+      ],
+      "rawAnswers": [
+        "可编程控制器 PLC",
+        "PLC",
+        "梯形图语言",
+        "48 点",
+        "24 点",
+        "24 点"
+      ],
+      "ocsAnswer": "可编程控制器 PLC===PLC===梯形图语言===48 点===24 点===24 点"
+    },
+    {
+      "id": 1014781954,
+      "module": "机电一体化",
+      "homeworkTitle": "作业任务机电一体化",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "模块化生产线的供电电源为 ___，工作电压 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "交流 220V",
+        "直流 DC 24V"
+      ],
+      "rawAnswers": [
+        "交流 220V",
+        "直流 DC 24V"
+      ],
+      "ocsAnswer": "交流 220V===直流 DC 24V"
+    },
+    {
+      "id": 1014781955,
+      "module": "机电一体化",
+      "homeworkTitle": "作业任务机电一体化",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "触摸屏是机电一体化设备的 ___，其屏幕为 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "人机界面",
+        "液晶屏幕"
+      ],
+      "rawAnswers": [
+        "人机界面",
+        "液晶屏幕"
+      ],
+      "ocsAnswer": "人机界面===液晶屏幕"
+    },
+    {
+      "id": 1014781956,
+      "module": "机电一体化",
+      "homeworkTitle": "作业任务机电一体化",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "对以下各类机器人进行分类，\n① 机械传动臂 ② 激光打印机 ③ 数控机床 ④ 自动售货机 ⑤ 智能机器人⑥ 数码相机 ⑦ 全制动洗衣机 ⑧ 模糊控制洗衣机 ⑨ 邮局自动分拣机 ⑩ 无人仓库 ⑪ 工业机器人 ⑫ 飞机的自动导航装置 ⑬ 扑翼飞行机器人 ⑭ 自主移动机器人 ⑮ 自动喷药装置\n第一代示教再现机器人:___；第二代具有某种智能的机器人:___；第三代具有高级智能的机器人:___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "①②③⑧",
+        "④⑥⑦",
+        "⑤⑨⑩"
+      ],
+      "rawAnswers": [
+        "①②③⑧",
+        "④⑥⑦",
+        "⑤⑨⑩"
+      ],
+      "ocsAnswer": "①②③⑧===④⑥⑦===⑤⑨⑩"
+    },
+    {
+      "id": 1014781957,
+      "module": "机电一体化",
+      "homeworkTitle": "作业任务机电一体化",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "电阻上的色环为棕、紫、绿、金、棕，则该电阻器的标称值和允许误差为 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "17.5Ω±1%"
+      ],
+      "rawAnswers": [
+        "17.5Ω±1%"
+      ],
+      "ocsAnswer": "17.5Ω±1%"
+    },
+    {
+      "id": 1014781958,
+      "module": "机电一体化",
+      "homeworkTitle": "作业任务机电一体化",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "若一个电容器表面电容量标注为 229，则其容值为 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "2.2pF"
+      ],
+      "rawAnswers": [
+        "2.2pF"
+      ],
+      "ocsAnswer": "2.2pF"
+    },
+    {
+      "id": 1014781959,
+      "module": "机电一体化",
+      "homeworkTitle": "作业任务机电一体化",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "二极管在正向电压作用下，电阻 ___，通过的电流 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "很小",
+        "很大"
+      ],
+      "rawAnswers": [
+        "很小",
+        "很大"
+      ],
+      "ocsAnswer": "很小===很大"
+    },
+    {
+      "id": 1014781960,
+      "module": "机电一体化",
+      "homeworkTitle": "作业任务机电一体化",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "发光二极管是由一个 ___ 组成的，也具有 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "PN 结",
+        "单向导电性"
+      ],
+      "rawAnswers": [
+        "PN 结",
+        "单向导电性"
+      ],
+      "ocsAnswer": "PN 结===单向导电性"
+    },
+    {
+      "id": 1014781961,
+      "module": "机电一体化",
+      "homeworkTitle": "作业任务机电一体化",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "电阻器在电路中的主要用途：___、___、___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "分压器",
+        "分流器",
+        "负载电阻"
+      ],
+      "rawAnswers": [
+        "分压器",
+        "分流器",
+        "负载电阻"
+      ],
+      "ocsAnswer": "分压器===分流器===负载电阻"
+    },
+    {
+      "id": 1014781962,
+      "module": "机电一体化",
+      "homeworkTitle": "作业任务机电一体化",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "无人机的英文缩写是 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "UAV"
+      ],
+      "rawAnswers": [
+        "UAV"
+      ],
+      "ocsAnswer": "UAV"
+    },
+    {
+      "id": 1014781963,
+      "module": "机电一体化",
+      "homeworkTitle": "作业任务机电一体化",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "超近程无人机活动半径 ___ 以内。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "15KM"
+      ],
+      "rawAnswers": [
+        "15KM"
+      ],
+      "ocsAnswer": "15KM"
+    },
+    {
+      "id": 1014781964,
+      "module": "机电一体化",
+      "homeworkTitle": "作业任务机电一体化",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "无人机按平台构型分类可分为 ___、___、无人飞艇、伞翼无人机、扑翼无人机。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "固定翼无人机",
+        "旋翼无人机"
+      ],
+      "rawAnswers": [
+        "固定翼无人机",
+        "旋翼无人机"
+      ],
+      "ocsAnswer": "固定翼无人机===旋翼无人机"
+    },
+    {
+      "id": 1014682917,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "1 智能制造产线操作时，正确行为是（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "跨越安全围栏",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "异常自行处理",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "老师指导下规范操作",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "擅自启动设备",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "老师指导下规范操作"
+      ],
+      "rawAnswers": [
+        "老师指导下规范操作"
+      ],
+      "ocsAnswer": "老师指导下规范操作"
+    },
+    {
+      "id": 1014682918,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "2 产线的 “工业大脑” 是（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "MES",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "PLC",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "AGV",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "机器人",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "PLC"
+      ],
+      "rawAnswers": [
+        "PLC"
+      ],
+      "ocsAnswer": "PLC"
+    },
+    {
+      "id": 1014682919,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "3 负责订单排产、监控、追溯的系统是（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "PLC",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "MES",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "HMI",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "WCS",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "MES"
+      ],
+      "rawAnswers": [
+        "MES"
+      ],
+      "ocsAnswer": "MES"
+    },
+    {
+      "id": 1014682920,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "4 本产线硬件组成不包括（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "3 套加工单元",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "2 台 AGV 小车",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "1 套智能料仓",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "5 台专机",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "5 台专机"
+      ],
+      "rawAnswers": [
+        "5 台专机"
+      ],
+      "ocsAnswer": "5 台专机"
+    },
+    {
+      "id": 1014682921,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "5 AGV 小车主要作用是（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "零件加工",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "物料运输",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "零件检测",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "激光打标",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "物料运输"
+      ],
+      "rawAnswers": [
+        "物料运输"
+      ],
+      "ocsAnswer": "物料运输"
+    },
+    {
+      "id": 1014682922,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "6 智能料仓功能是（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "存放原料、成品",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "铣削加工",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "零件装配",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "故障报警",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "存放原料、成品"
+      ],
+      "rawAnswers": [
+        "存放原料、成品"
+      ],
+      "ocsAnswer": "存放原料、成品"
+    },
+    {
+      "id": 1014682923,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "7 加工单元中不包含（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "数控车床",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "加工中心",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "打标机",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "机器人",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "打标机"
+      ],
+      "rawAnswers": [
+        "打标机"
+      ],
+      "ocsAnswer": "打标机"
+    },
+    {
+      "id": 1014682925,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "9 单元模式核心软件是（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "产线 MES",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "单元 MES",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "WCS",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "CAD",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "单元 MES"
+      ],
+      "rawAnswers": [
+        "单元 MES"
+      ],
+      "ocsAnswer": "单元 MES"
+    },
+    {
+      "id": 1014682926,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "10 产线模式负责手动出入库的是（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "MES",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "WCS",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "PLC",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "HMI",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "WCS"
+      ],
+      "rawAnswers": [
+        "WCS"
+      ],
+      "ocsAnswer": "WCS"
+    },
+    {
+      "id": 1014682927,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "11 单元模式切换产线模式时，机器人加载（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "单元主程序",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "产线主程序",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "加工子程序",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "复位程序",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "产线主程序"
+      ],
+      "rawAnswers": [
+        "产线主程序"
+      ],
+      "ocsAnswer": "产线主程序"
+    },
+    {
+      "id": 1014682928,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "12 在车削加工中，要求加工出的零件精度比较高，则要求（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "主轴转速高、刀架进给速度低",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "主轴转速低、刀架进给速度低",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "主轴转速高、刀架进给速度高",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "主轴转速低、刀架进给速度高",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "主轴转速高、刀架进给速度低"
+      ],
+      "rawAnswers": [
+        "主轴转速高、刀架进给速度低"
+      ],
+      "ocsAnswer": "主轴转速高、刀架进给速度低"
+    },
+    {
+      "id": 1014682929,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "1 产线运行严禁跨越 ___，伸手进入工作区。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "安全围栏"
+      ],
+      "rawAnswers": [
+        "安全围栏"
+      ],
+      "ocsAnswer": "安全围栏"
+    },
+    {
+      "id": 1014682930,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "2 加工单元含线边库、机器人、数控车床、___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "加工中心"
+      ],
+      "rawAnswers": [
+        "加工中心"
+      ],
+      "ocsAnswer": "加工中心"
+    },
+    {
+      "id": 1014682931,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "3 产线中的 4 台专机分别是打标机、清洗机、检测机、___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "装配机"
+      ],
+      "rawAnswers": [
+        "装配机"
+      ],
+      "ocsAnswer": "装配机"
+    },
+    {
+      "id": 1014682932,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "4 单元模式下 ___、___、___ 不参与运行。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "AGV 小车",
+        "智能料仓",
+        "4 台专机"
+      ],
+      "rawAnswers": [
+        "AGV 小车",
+        "智能料仓",
+        "4 台专机"
+      ],
+      "ocsAnswer": "AGV 小车===智能料仓===4 台专机"
+    },
+    {
+      "id": 1014682933,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "5 机器人有 ___ 个转动运动，___ 个直线运动，___ 个手爪。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "6",
+        "1",
+        "3"
+      ],
+      "rawAnswers": [
+        "6",
+        "1",
+        "3"
+      ],
+      "ocsAnswer": "6===1===3"
+    },
+    {
+      "id": 1014682934,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "6 车床完成 ___ 加工，加工中心完成 ___ 加工。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "车削",
+        "铣削"
+      ],
+      "rawAnswers": [
+        "车削",
+        "铣削"
+      ],
+      "ocsAnswer": "车削===铣削"
+    },
+    {
+      "id": 1014682935,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "7 线边库可存放 ___、___、___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "原料",
+        "成品",
+        "机器人手爪"
+      ],
+      "rawAnswers": [
+        "原料",
+        "成品",
+        "机器人手爪"
+      ],
+      "ocsAnswer": "原料===成品===机器人手爪"
+    },
+    {
+      "id": 1014682936,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "8 用 CAXA 数控车软件编程步骤依次是 ___、___、___、___、___、___、后置处理转换成代码。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "建模",
+        "装刀",
+        "装毛坯",
+        "选定加工类型",
+        "给定加工参数",
+        "仿真"
+      ],
+      "rawAnswers": [
+        "建模",
+        "装刀",
+        "装毛坯",
+        "选定加工类型",
+        "给定加工参数",
+        "仿真"
+      ],
+      "ocsAnswer": "建模===装刀===装毛坯===选定加工类型===给定加工参数===仿真"
+    },
+    {
+      "id": 1014682937,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "1 智能料仓的 2 个特殊库位既能出毛坯，又能入成品，二者功能相同。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014682938,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "2 设备运行过程中打开安全门锁不会影响设备运行。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014682939,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "3 WCS 软件中棕色料仓表示毛坯，绿色表示成品，黄色表示空位。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "对"
+      ],
+      "rawAnswers": [
+        "对"
+      ],
+      "ocsAnswer": "对"
+    },
+    {
+      "id": 1014682940,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "4 所有零件都有加工、清洗、检测、打标、装配工序。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014682941,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "5 AGV 小车仅用于线边库与智能料仓之间的物料运输。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014682942,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "6 三个加工单元可加工的零件不完全相同。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "对"
+      ],
+      "rawAnswers": [
+        "对"
+      ],
+      "ocsAnswer": "对"
+    },
+    {
+      "id": 1014682943,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "7 装配锤锤头需要先铣削，后车削。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014682944,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "8 使用单元模式下订单时需添加程序，程序名中 L 表示铣削、C 表示车削。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014682945,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "9 加工单元一离智能料仓最近。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "对"
+      ],
+      "rawAnswers": [
+        "对"
+      ],
+      "ocsAnswer": "对"
+    },
+    {
+      "id": 1014682946,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "10 中间轴有加工、清洗、检测三道工序。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "对"
+      ],
+      "rawAnswers": [
+        "对"
+      ],
+      "ocsAnswer": "对"
+    },
+    {
+      "id": 1014682947,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "11 用 CAXA 数控车软件编写好的程序直接可以用于数控车床去加工。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014682948,
+      "module": "智能制造",
+      "homeworkTitle": "作业任务智能制造",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "12 用 CAXA 软件编程得到的所有点坐标是以机床坐标系为准的。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014684443,
+      "module": "特种加工",
+      "homeworkTitle": "作业任务特种加工",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "1 激光切割是一种利用 ___ 束对工件进行局部加热，使材料迅速熔化、汽化或烧蚀并借助辅助气体去除熔渣的加工方式。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "激光"
+      ],
+      "rawAnswers": [
+        "激光"
+      ],
+      "ocsAnswer": "激光"
+    },
+    {
+      "id": 1014684444,
+      "module": "特种加工",
+      "homeworkTitle": "作业任务特种加工",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "2 激光切割按工作介质可分为 ___ 激光切割和 ___ 激光切割，其中前者常使用波长 10.6μm 的 CO₂激光，后者常使用波长 1.06μm 的光纤激光。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "CO₂；二氧化碳",
+        "光纤"
+      ],
+      "rawAnswers": [
+        "CO₂；二氧化碳",
+        "光纤"
+      ],
+      "ocsAnswer": "CO₂；二氧化碳===光纤"
+    },
+    {
+      "id": 1014684445,
+      "module": "特种加工",
+      "homeworkTitle": "作业任务特种加工",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "3 在激光打标过程中，材料表面的变化主要依靠 ___、___ 或材料的光化学反应。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "热效应",
+        "烧蚀"
+      ],
+      "rawAnswers": [
+        "热效应",
+        "烧蚀"
+      ],
+      "ocsAnswer": "热效应===烧蚀"
+    },
+    {
+      "id": 1014684446,
+      "module": "特种加工",
+      "homeworkTitle": "作业任务特种加工",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "4 对于非金属材料，如塑料和玻璃，通常采用 ___ 激光进行打标，以获得较好效果。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "紫外"
+      ],
+      "rawAnswers": [
+        "紫外"
+      ],
+      "ocsAnswer": "紫外"
+    },
+    {
+      "id": 1014684447,
+      "module": "特种加工",
+      "homeworkTitle": "作业任务特种加工",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "5 电火花加工（EDM）主要用于加工高硬度导电材料，其加工原理是通过 ___ 和 ___ 的作用，使材料表面不断蚀除。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "放电腐蚀",
+        "热效应"
+      ],
+      "rawAnswers": [
+        "放电腐蚀",
+        "热效应"
+      ],
+      "ocsAnswer": "放电腐蚀===热效应"
+    },
+    {
+      "id": 1014684448,
+      "module": "特种加工",
+      "homeworkTitle": "作业任务特种加工",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "6 超声加工（USM）利用高频振动的工具和 ___ 介质对工件进行冲击，从而去除材料，适用于加工脆性材料，如玻璃、陶瓷等。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "磨料悬浮液"
+      ],
+      "rawAnswers": [
+        "磨料悬浮液"
+      ],
+      "ocsAnswer": "磨料悬浮液"
+    },
+    {
+      "id": 1014684449,
+      "module": "特种加工",
+      "homeworkTitle": "作业任务特种加工",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "1 关于激光切割的工作原理，下列说法正确的是（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "通过机械切割去除材料",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "依靠高温熔化、汽化材料并用辅助气体吹走熔渣",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "采用超声波振动进行切割",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "依靠水射流冲击材料表面",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "依靠高温熔化、汽化材料并用辅助气体吹走熔渣"
+      ],
+      "rawAnswers": [
+        "依靠高温熔化、汽化材料并用辅助气体吹走熔渣"
+      ],
+      "ocsAnswer": "依靠高温熔化、汽化材料并用辅助气体吹走熔渣"
+    },
+    {
+      "id": 1014684450,
+      "module": "特种加工",
+      "homeworkTitle": "作业任务特种加工",
+      "type": "multiple",
+      "typeName": "多选题",
+      "score": 0.3,
+      "title": "2 影响激光切割质量的因素不包括（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "激光功率",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "聚焦镜头材质",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "切割速度",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "材料热扩散系数",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "聚焦镜头材质",
+        "切割速度",
+        "材料热扩散系数"
+      ],
+      "rawAnswers": [
+        "聚焦镜头材质",
+        "切割速度",
+        "材料热扩散系数"
+      ],
+      "ocsAnswer": "聚焦镜头材质===切割速度===材料热扩散系数"
+    },
+    {
+      "id": 1014684451,
+      "module": "特种加工",
+      "homeworkTitle": "作业任务特种加工",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "3 CO₂激光器的典型工作波长是（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "1.06μm",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "10.6μm",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "532nm",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "355nm",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "10.6μm"
+      ],
+      "rawAnswers": [
+        "10.6μm"
+      ],
+      "ocsAnswer": "10.6μm"
+    },
+    {
+      "id": 1014684452,
+      "module": "特种加工",
+      "homeworkTitle": "作业任务特种加工",
+      "type": "multiple",
+      "typeName": "多选题",
+      "score": 0.3,
+      "title": "4 在激光切割过程中，使用氮气作为辅助气体的主要目的是（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "提高切割速度",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "防止氧化，获得光亮的切割截面",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "降低切割温度",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "促进熔渣排出",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "防止氧化，获得光亮的切割截面",
+        "降低切割温度",
+        "促进熔渣排出"
+      ],
+      "rawAnswers": [
+        "防止氧化，获得光亮的切割截面",
+        "降低切割温度",
+        "促进熔渣排出"
+      ],
+      "ocsAnswer": "防止氧化，获得光亮的切割截面===降低切割温度===促进熔渣排出"
+    },
+    {
+      "id": 1014684453,
+      "module": "特种加工",
+      "homeworkTitle": "作业任务特种加工",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "5 在激光打标中，常用于金属材料表面雕刻和深度标记的激光器是（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "CO₂激光器",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "紫外激光器",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "光纤激光器",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "半导体激光器",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "光纤激光器"
+      ],
+      "rawAnswers": [
+        "光纤激光器"
+      ],
+      "ocsAnswer": "光纤激光器"
+    },
+    {
+      "id": 1014684454,
+      "module": "特种加工",
+      "homeworkTitle": "作业任务特种加工",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "6 以下哪种激光器主要用于高精度微加工和紫外打标？（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "CO₂激光器",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "光纤激光器",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "皮秒 / 飞秒激光器",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "半导体激光器",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "皮秒 / 飞秒激光器"
+      ],
+      "rawAnswers": [
+        "皮秒 / 飞秒激光器"
+      ],
+      "ocsAnswer": "皮秒 / 飞秒激光器"
+    },
+    {
+      "id": 1014684455,
+      "module": "特种加工",
+      "homeworkTitle": "作业任务特种加工",
+      "type": "multiple",
+      "typeName": "多选题",
+      "score": 0.3,
+      "title": "7 关于电解加工（ECM），下列说法正确的是（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "适用于加工硬质合金和高温合金",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "依赖于工具与工件的直接接触",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "主要通过机械磨削作用去除材料",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "加工过程中不会产生热影响区",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "适用于加工硬质合金和高温合金",
+        "加工过程中不会产生热影响区"
+      ],
+      "rawAnswers": [
+        "适用于加工硬质合金和高温合金",
+        "加工过程中不会产生热影响区"
+      ],
+      "ocsAnswer": "适用于加工硬质合金和高温合金===加工过程中不会产生热影响区"
+    },
+    {
+      "id": 1014684456,
+      "module": "特种加工",
+      "homeworkTitle": "作业任务特种加工",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "8 水射流加工（WJM）相比激光切割的主要优势是（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "不会产生热影响区，适合加工热敏感材料",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "切割精度更高，适用于微细加工",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "适用于金属材料，但无法切割非金属材料",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "需要使用辅助气体提高切割效率",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "不会产生热影响区，适合加工热敏感材料"
+      ],
+      "rawAnswers": [
+        "不会产生热影响区，适合加工热敏感材料"
+      ],
+      "ocsAnswer": "不会产生热影响区，适合加工热敏感材料"
+    },
+    {
+      "id": 1014687066,
+      "module": "数控加工",
+      "homeworkTitle": "作业任务数控加工",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "数控机床有不同的运动形式，为使编程时能够正确确定机床加工过程，通常采用 （ ） 的原则编写程序",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "假定工件相对静止不动，而刀具运动",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "假定刀具相对静止不动，而工件运动",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "分析机床运动关系后根据实际情况决定",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "假定工件相对静止不动，而刀具运动"
+      ],
+      "rawAnswers": [
+        "假定工件相对静止不动，而刀具运动"
+      ],
+      "ocsAnswer": "假定工件相对静止不动，而刀具运动"
+    },
+    {
+      "id": 1014687067,
+      "module": "数控加工",
+      "homeworkTitle": "作业任务数控加工",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "数控编程时，应首先设定 （ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "机床原点",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "固定参考点",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "机床坐标系",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "编程坐标系",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "编程坐标系"
+      ],
+      "rawAnswers": [
+        "编程坐标系"
+      ],
+      "ocsAnswer": "编程坐标系"
+    },
+    {
+      "id": 1014687068,
+      "module": "数控加工",
+      "homeworkTitle": "作业任务数控加工",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "程序的输入、调用和修改必须在 （ ） 方式下进行。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "点动",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "快动",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "MDI",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "编辑",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "快动"
+      ],
+      "rawAnswers": [
+        "快动"
+      ],
+      "ocsAnswer": "快动"
+    },
+    {
+      "id": 1014687069,
+      "module": "数控加工",
+      "homeworkTitle": "作业任务数控加工",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "数控机床主轴以 800 转 / 分转速正转时，其指令应是 （ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "M02S800",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "M03S800",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "M04S800",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "M05800",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "M03S800"
+      ],
+      "rawAnswers": [
+        "M03S800"
+      ],
+      "ocsAnswer": "M03S800"
+    },
+    {
+      "id": 1014687070,
+      "module": "数控加工",
+      "homeworkTitle": "作业任务数控加工",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "如果用 G99 来指定 CNC 车床进给速度时，则 F 单位是以 （ ） 表示。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "每分钟进给量 (mm/r)",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "每秒种进给量 (mm/s)",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "每转进给量 (mm/r)",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "每转进给量 (mm/r)"
+      ],
+      "rawAnswers": [
+        "每转进给量 (mm/r)"
+      ],
+      "ocsAnswer": "每转进给量 (mm/r)"
+    },
+    {
+      "id": 1014687071,
+      "module": "数控加工",
+      "homeworkTitle": "作业任务数控加工",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "指令 （ ） 功能是程序结束并返回程序开头。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "M02",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "M30",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "M03",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "M00",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "M30"
+      ],
+      "rawAnswers": [
+        "M30"
+      ],
+      "ocsAnswer": "M30"
+    },
+    {
+      "id": 1014687072,
+      "module": "数控加工",
+      "homeworkTitle": "作业任务数控加工",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "在有刀具补偿的情况下换三号刀的代码 （ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "T0300",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "T03",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "T0303",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "T0303"
+      ],
+      "rawAnswers": [
+        "T0303"
+      ],
+      "ocsAnswer": "T0303"
+    },
+    {
+      "id": 1014687073,
+      "module": "数控加工",
+      "homeworkTitle": "作业任务数控加工",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "规定刀具远离工件的运动方向为坐标的 （ ） 方向。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "正",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "负",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "左",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "右",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "正"
+      ],
+      "rawAnswers": [
+        "正"
+      ],
+      "ocsAnswer": "正"
+    },
+    {
+      "id": 1014687074,
+      "module": "数控加工",
+      "homeworkTitle": "作业任务数控加工",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "在数控机床上加工零件，若刀具突然破坏，则应立即 （ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "关闭机床电源",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "关闭数控系统",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "按暂停键",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "按急停键",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "按急停键"
+      ],
+      "rawAnswers": [
+        "按急停键"
+      ],
+      "ocsAnswer": "按急停键"
+    },
+    {
+      "id": 1014687075,
+      "module": "数控加工",
+      "homeworkTitle": "作业任务数控加工",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "加工中心与数控铣床的主要区别是 （ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "数控系统复杂程度不同",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "机床精度不同",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "有无自动换刀系统",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "有无自动换刀系统"
+      ],
+      "rawAnswers": [
+        "有无自动换刀系统"
+      ],
+      "ocsAnswer": "有无自动换刀系统"
+    },
+    {
+      "id": 1014687076,
+      "module": "数控加工",
+      "homeworkTitle": "作业任务数控加工",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "数控机床的 MDI 模式指 （ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "手动数据输入模式",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "自动运行模式",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "编辑模式",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "空运行模式",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "手动数据输入模式"
+      ],
+      "rawAnswers": [
+        "手动数据输入模式"
+      ],
+      "ocsAnswer": "手动数据输入模式"
+    },
+    {
+      "id": 1014687077,
+      "module": "数控加工",
+      "homeworkTitle": "作业任务数控加工",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "数控机床的核心控制单元是 （ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "伺服电机",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "数控系统 (CNC)",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "主轴箱",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "刀库",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "数控系统 (CNC)"
+      ],
+      "rawAnswers": [
+        "数控系统 (CNC)"
+      ],
+      "ocsAnswer": "数控系统 (CNC)"
+    },
+    {
+      "id": 1014687078,
+      "module": "数控加工",
+      "homeworkTitle": "作业任务数控加工",
+      "type": "multiple",
+      "typeName": "多选题",
+      "score": 0.3,
+      "title": "数控机床能成为当前制造业最重要的加工设备是因为 （ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "自动化程度高",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "对工人技术水平要求低",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "劳动强度低",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "适应性强、加工效率高和工序集中",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "自动化程度高",
+        "劳动强度低",
+        "适应性强、加工效率高和工序集中"
+      ],
+      "rawAnswers": [
+        "自动化程度高",
+        "劳动强度低",
+        "适应性强、加工效率高和工序集中"
+      ],
+      "ocsAnswer": "自动化程度高===劳动强度低===适应性强、加工效率高和工序集中"
+    },
+    {
+      "id": 1014687079,
+      "module": "数控加工",
+      "homeworkTitle": "作业任务数控加工",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "数控编程方法一般有 ___ 和 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "自动编程",
+        "手动编程"
+      ],
+      "rawAnswers": [
+        "自动编程",
+        "手动编程"
+      ],
+      "ocsAnswer": "自动编程===手动编程"
+    },
+    {
+      "id": 1014687080,
+      "module": "数控加工",
+      "homeworkTitle": "作业任务数控加工",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "数控加工是用 ___ 来控制机床对工件进行切削的加工过程。它是一种灵活高效的自动化生产方式，尤其适合 ___ 生产中 ___ 零件的生产。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "数字化信号",
+        "中小批量",
+        "外型复杂多变"
+      ],
+      "rawAnswers": [
+        "数字化信号",
+        "中小批量",
+        "外型复杂多变"
+      ],
+      "ocsAnswer": "数字化信号===中小批量===外型复杂多变"
+    },
+    {
+      "id": 1014687081,
+      "module": "数控加工",
+      "homeworkTitle": "作业任务数控加工",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "根据运动轨迹方式分，数控机床可分为 ___ 控制数控机床、___ 控制数控机床和 ___ 控制数控机床。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "点动",
+        "直线",
+        "轮廓"
+      ],
+      "rawAnswers": [
+        "点动",
+        "直线",
+        "轮廓"
+      ],
+      "ocsAnswer": "点动===直线===轮廓"
+    },
+    {
+      "id": 1014687082,
+      "module": "数控加工",
+      "homeworkTitle": "作业任务数控加工",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "一个完整的程序由程序号、___ 和 ___ 组成。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "程序内容",
+        "程序结束"
+      ],
+      "rawAnswers": [
+        "程序内容",
+        "程序结束"
+      ],
+      "ocsAnswer": "程序内容===程序结束"
+    },
+    {
+      "id": 1014688413,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "在卧式铣床上铣螺旋槽时，主运动是 ___ 运动；进给运动是工件的 ___ 运动和 ___ 运动；铣齿轮时，齿形加工采用 ___ 法，其齿形精度取决于 ___；分齿均匀取决于 ___ 的精度。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "刀具的旋转",
+        "纵向",
+        "旋转",
+        "仿形",
+        "刀具的精度",
+        "分度机构"
+      ],
+      "rawAnswers": [
+        "刀具的旋转",
+        "纵向",
+        "旋转",
+        "仿形",
+        "刀具的精度",
+        "分度机构"
+      ],
+      "ocsAnswer": "刀具的旋转===纵向===旋转===仿形===刀具的精度===分度机构"
+    },
+    {
+      "id": 1014688414,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "把下图万能卧式铣床主要是组成部分标在图上。（左边标注：___、___、___、___、___、___；右边标注：___、___、___、___、___、___、___、___）",
+      "images": [
+        "https://image.zhihuishu.com/zhs/ai-createknowledge-h5/BASE_INFO/202604/759eeaaea9054777828c9052ba6f131e.png"
+      ],
+      "localImages": [
+        "assets/q-images/1014688414.png"
+      ],
+      "options": [],
+      "answers": [
+        "立铣头",
+        "铣刀",
+        "工作台",
+        "纵向手动手柄",
+        "纵向垂直自控手柄",
+        "升降台",
+        "横梁",
+        "横向导轨",
+        "横向手动手柄",
+        "主轴变速",
+        "床身",
+        "进给变速",
+        "电器开关",
+        "底座"
+      ],
+      "rawAnswers": [
+        "立铣头",
+        "铣刀",
+        "工作台",
+        "纵向手动手柄",
+        "纵向垂直自控手柄",
+        "升降台",
+        "横梁",
+        "横向导轨",
+        "横向手动手柄",
+        "主轴变速",
+        "床身",
+        "进给变速",
+        "电器开关",
+        "底座"
+      ],
+      "ocsAnswer": "立铣头===铣刀===工作台===纵向手动手柄===纵向垂直自控手柄===升降台===横梁===横向导轨===横向手动手柄===主轴变速===床身===进给变速===电器开关===底座"
+    },
+    {
+      "id": 1014688415,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "立铣和卧铣在结构上的主要区别在于它的 ___ 和 ___ 是垂直的。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "主轴",
+        "工作台"
+      ],
+      "rawAnswers": [
+        "主轴",
+        "工作台"
+      ],
+      "ocsAnswer": "主轴===工作台"
+    },
+    {
+      "id": 1014688416,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "根据安装形式铣刀可分为，___ 铣刀和 ___ 铣刀两大类；根据刀齿材料铣刀可分为 ___ 和 ___ 两大类。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "带柄",
+        "带孔",
+        "高速钢",
+        "硬质合金"
+      ],
+      "rawAnswers": [
+        "带柄",
+        "带孔",
+        "高速钢",
+        "硬质合金"
+      ],
+      "ocsAnswer": "带柄===带孔===高速钢===硬质合金"
+    },
+    {
+      "id": 1014688417,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "牛头刨床的曲柄摇杆的主要作用是把电动机的 ___ 运动转变为滑枕的 ___ 运动，该机构具有 ___ 特性。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "旋转",
+        "直线往返",
+        "慢进快回"
+      ],
+      "rawAnswers": [
+        "旋转",
+        "直线往返",
+        "慢进快回"
+      ],
+      "ocsAnswer": "旋转===直线往返===慢进快回"
+    },
+    {
+      "id": 1014688418,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "加工下列零件时，可以选用何机床加工？工件如何装夹？\n\n机床 ___；安装方法 ___； 机床 ___；安装方法 ___。",
+      "images": [
+        "https://image.zhihuishu.com/zhs/ai-createknowledge-h5/BASE_INFO/202604/800d00bb9f404966916e59217b59a914.png"
+      ],
+      "localImages": [
+        "assets/q-images/1014688418.png"
+      ],
+      "options": [],
+      "answers": [
+        "刨床或铣床",
+        "虎钳",
+        "刨床或铣床",
+        "虎钳"
+      ],
+      "rawAnswers": [
+        "刨床或铣床",
+        "虎钳",
+        "刨床或铣床",
+        "虎钳"
+      ],
+      "ocsAnswer": "刨床或铣床===虎钳===刨床或铣床===虎钳"
+    },
+    {
+      "id": 1014688419,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "龙门刨床主要用于加工大型零件，它是利用 ___ 作往复直线运动。刀架作 ___ 移动来实现切削的。你操作和见过的工件在刨床上的安装方法有：a ___、b ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "工件",
+        "进给",
+        "虎钳",
+        "螺栓压板"
+      ],
+      "rawAnswers": [
+        "工件",
+        "进给",
+        "虎钳",
+        "螺栓压板"
+      ],
+      "ocsAnswer": "工件===进给===虎钳===螺栓压板"
+    },
+    {
+      "id": 1014688420,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "常用的平面磨削方法有 ___ 磨削和 ___ 磨削两大类；外圆磨削常用的方法分横磨法和 ___ 法两大类，其中 ___ 法用得最广泛。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "横向",
+        "切入",
+        "纵磨",
+        "纵磨"
+      ],
+      "rawAnswers": [
+        "横向",
+        "切入",
+        "纵磨",
+        "纵磨"
+      ],
+      "ocsAnswer": "横向===切入===纵磨===纵磨"
+    },
+    {
+      "id": 1014688421,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "生产实践中磨削工件外圆表面时，常见的工件装夹方法是：a ___ 装夹，b ___ 装夹。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "卡盘",
+        "双顶尖"
+      ],
+      "rawAnswers": [
+        "卡盘",
+        "双顶尖"
+      ],
+      "ocsAnswer": "卡盘===双顶尖"
+    },
+    {
+      "id": 1014688422,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "用端磨法磨削时，如砂轮与工件接触面积大，则磨粒尺寸应 ___ 一些，因为只有这样才能有效地防止工件表面烧伤。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "小"
+      ],
+      "rawAnswers": [
+        "小"
+      ],
+      "ocsAnswer": "小"
+    },
+    {
+      "id": 1014688423,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "外圆磨削时，工件与砂轮的旋向 ___；内圆磨削时，二者的旋向 ___，此时工件常用 ___ 和 ___ 作为定位基准。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "相同",
+        "相反",
+        "外圆",
+        "端面"
+      ],
+      "rawAnswers": [
+        "相同",
+        "相反",
+        "外圆",
+        "端面"
+      ],
+      "ocsAnswer": "相同===相反===外圆===端面"
+    },
+    {
+      "id": 1014688424,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "砂轮的硬度是指 ___。磨削有色金属时应用较 ___ 的砂轮，理由是 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "砂粒在外力作用下从砂轮上脱落的难易程度",
+        "软",
+        "砂粒易脱落、砂轮形成新的切削层、砂轮易自锐"
+      ],
+      "rawAnswers": [
+        "砂粒在外力作用下从砂轮上脱落的难易程度",
+        "软",
+        "砂粒易脱落、砂轮形成新的切削层、砂轮易自锐"
+      ],
+      "ocsAnswer": "砂粒在外力作用下从砂轮上脱落的难易程度===软===砂粒易脱落、砂轮形成新的切削层、砂轮易自锐"
+    },
+    {
+      "id": 1014688425,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "铣削加工生产率高的原因是：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "多齿同时切削",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "多齿连续切削",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "每个齿连续切削",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "多齿连续切削"
+      ],
+      "rawAnswers": [
+        "多齿连续切削"
+      ],
+      "ocsAnswer": "多齿连续切削"
+    },
+    {
+      "id": 1014688426,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "立铣刀主要用于加工：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "平面、凹面和台阶面",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "小平面、沟槽",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "沟槽和键槽",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "平面、凹面和台阶面"
+      ],
+      "rawAnswers": [
+        "平面、凹面和台阶面"
+      ],
+      "ocsAnswer": "平面、凹面和台阶面"
+    },
+    {
+      "id": 1014688427,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "铣螺旋槽时，铣床的哪个部件应转动一个螺旋角：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "工作台",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "分度头",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "立铣刀",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "工作台"
+      ],
+      "rawAnswers": [
+        "工作台"
+      ],
+      "ocsAnswer": "工作台"
+    },
+    {
+      "id": 1014688428,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "键槽铣刀能直接加工（指不必先在键槽两端钻孔）封闭键槽的原因是：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "端面两刀刃通至刀具中心",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "刀具刚性好",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "刀具螺旋角大",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "端面两刀刃通至刀具中心"
+      ],
+      "rawAnswers": [
+        "端面两刀刃通至刀具中心"
+      ],
+      "ocsAnswer": "端面两刀刃通至刀具中心"
+    },
+    {
+      "id": 1014688429,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "顺铣时，如工作台上无消除丝杠螺母机构间隙装置，将会产生：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "工作台振动",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "工作台窜动",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "工件装夹不牢",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "工作台窜动"
+      ],
+      "rawAnswers": [
+        "工作台窜动"
+      ],
+      "ocsAnswer": "工作台窜动"
+    },
+    {
+      "id": 1014688430,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "精加工时常用顺铣而不用逆铣的原因是：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "逆铣会使工作台窜动",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "顺铣刀具散热好",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "顺铣加工质量好",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "顺铣加工质量好"
+      ],
+      "rawAnswers": [
+        "顺铣加工质量好"
+      ],
+      "ocsAnswer": "顺铣加工质量好"
+    },
+    {
+      "id": 1014688431,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "牛头刨床工件进给量大小的调整，是通过改变：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "滑枕行程长短",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "曲柄转角大小",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "棘轮齿数多少",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "棘轮齿数多少"
+      ],
+      "rawAnswers": [
+        "棘轮齿数多少"
+      ],
+      "ocsAnswer": "棘轮齿数多少"
+    },
+    {
+      "id": 1014688432,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "刨削加工在机械加工中仍占一定地位的原因是（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "生产率低，但加工精度高",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "加工精度较低，但生产率较高",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "工装设备简单，宜于单件生产，修配工作",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "加工范围广泛",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "工装设备简单，宜于单件生产，修配工作"
+      ],
+      "rawAnswers": [
+        "工装设备简单，宜于单件生产，修配工作"
+      ],
+      "ocsAnswer": "工装设备简单，宜于单件生产，修配工作"
+    },
+    {
+      "id": 1014688433,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "牛头刨床刀架上抬刀板的作用是：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "安装刨刀方便",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "便于刀架旋转",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "减少刨刀回程时与工件的磨擦",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "减少刨刀回程时与工件的磨擦"
+      ],
+      "rawAnswers": [
+        "减少刨刀回程时与工件的磨擦"
+      ],
+      "ocsAnswer": "减少刨刀回程时与工件的磨擦"
+    },
+    {
+      "id": 1014688434,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "粗刨时，为降低工件表面粗糙度值 Ra，应选用：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "降低切削速度",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "减少 ap",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "带有过渡刃的刀具 (刀尖呈圆弧）",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "带有过渡刃的刀具 (刀尖呈圆弧）"
+      ],
+      "rawAnswers": [
+        "带有过渡刃的刀具 (刀尖呈圆弧）"
+      ],
+      "ocsAnswer": "带有过渡刃的刀具 (刀尖呈圆弧）"
+    },
+    {
+      "id": 1014688435,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "创垂直面时，刀盒应偏转：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "10-15°",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "15～30°",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "使刨刀刀刃与垂直面平行",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "使刨刀刀刃与垂直面平行"
+      ],
+      "rawAnswers": [
+        "使刨刀刀刃与垂直面平行"
+      ],
+      "ocsAnswer": "使刨刀刀刃与垂直面平行"
+    },
+    {
+      "id": 1014688436,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "刨削水平面时，刀架和刀座的正确位置为：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "刀架左转，刀座处于中间垂直位置",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "刀座转动、刀架处于中间垂直位置",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "刀架和刀座均处于中间垂直位置",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "刀架和刀座均处于中间垂直位置"
+      ],
+      "rawAnswers": [
+        "刀架和刀座均处于中间垂直位置"
+      ],
+      "ocsAnswer": "刀架和刀座均处于中间垂直位置"
+    },
+    {
+      "id": 1014688437,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "GZ 是哪类磨料的代号：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "白刚玉",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "棕刚玉",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "铬刚玉",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "棕刚玉"
+      ],
+      "rawAnswers": [
+        "棕刚玉"
+      ],
+      "ocsAnswer": "棕刚玉"
+    },
+    {
+      "id": 1014688438,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "磨削是零件的精加工方法之一，经济尺寸精度等级和表面粗糙度值 Ra 为：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "IT4~IT2, Ra0.05~0.1",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "IT6~IT5, Ra0.8~0.2",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "IT7~IT5, Ra0.05~0.1",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "IT6~IT5, Ra0.8~0.2"
+      ],
+      "rawAnswers": [
+        "IT6~IT5, Ra0.8~0.2"
+      ],
+      "ocsAnswer": "IT6~IT5, Ra0.8~0.2"
+    },
+    {
+      "id": 1014688439,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "砂轮的硬度是指：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "组成砂轮的磨料的硬度",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "粘结剂的硬度",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "磨粒在外力作用下从砂轮表面上脱落的难易程度",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "磨粒在外力作用下从砂轮表面上脱落的难易程度"
+      ],
+      "rawAnswers": [
+        "磨粒在外力作用下从砂轮表面上脱落的难易程度"
+      ],
+      "ocsAnswer": "磨粒在外力作用下从砂轮表面上脱落的难易程度"
+    },
+    {
+      "id": 1014688440,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "磨削同轴度较高的台阶轴时，工件安装宜采用：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "双顶尖安装",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "三爪卡盘安装",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "虎钳安装",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "双顶尖安装"
+      ],
+      "rawAnswers": [
+        "双顶尖安装"
+      ],
+      "ocsAnswer": "双顶尖安装"
+    },
+    {
+      "id": 1014688441,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "平面磨削时常用的工件安装方法为：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "三爪卡盘",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "螺钉压板",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "电磁吸盘",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "电磁吸盘"
+      ],
+      "rawAnswers": [
+        "电磁吸盘"
+      ],
+      "ocsAnswer": "电磁吸盘"
+    },
+    {
+      "id": 1014688442,
+      "module": "铣刨磨镗",
+      "homeworkTitle": "作业任务铣刨磨镗",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "精磨时，为保证加工质量，其参数选择应为：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "砂轮硬度、磨料尺寸和 ap 均为中等",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "砂轮硬度低、磨料尺寸和 ap 大",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "砂轮硬度高、磨粒尺寸和 ap 小",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "砂轮硬度高、磨粒尺寸和 ap 小"
+      ],
+      "rawAnswers": [
+        "砂轮硬度高、磨粒尺寸和 ap 小"
+      ],
+      "ocsAnswer": "砂轮硬度高、磨粒尺寸和 ap 小"
+    },
+    {
+      "id": 1014690137,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "车床主要加工 ___ 表面，安装工件时要使加工表面的中心与车床主轴中心线 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "回转体",
+        "同心"
+      ],
+      "rawAnswers": [
+        "回转体",
+        "同心"
+      ],
+      "ocsAnswer": "回转体===同心"
+    },
+    {
+      "id": 1014690138,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "普通卧式车床是由变速箱、___、___、___、___、___ 和 ___ 等部分组成。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "主轴箱",
+        "进给箱",
+        "溜板箱",
+        "刀架",
+        "光杠丝杠",
+        "尾座"
+      ],
+      "rawAnswers": [
+        "主轴箱",
+        "进给箱",
+        "溜板箱",
+        "刀架",
+        "光杠丝杠",
+        "尾座"
+      ],
+      "ocsAnswer": "主轴箱===进给箱===溜板箱===刀架===光杠丝杠===尾座"
+    },
+    {
+      "id": 1014690139,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "车床上安装工件常见的方法有 a ___、b ___、c ___、d ___、e ___ 等。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "三爪自定心卡盘装夹",
+        "四爪单动卡盘装夹",
+        "两顶尖装夹",
+        "一夹一顶装夹",
+        "花盘"
+      ],
+      "rawAnswers": [
+        "三爪自定心卡盘装夹",
+        "四爪单动卡盘装夹",
+        "两顶尖装夹",
+        "一夹一顶装夹",
+        "花盘"
+      ],
+      "ocsAnswer": "三爪自定心卡盘装夹===四爪单动卡盘装夹===两顶尖装夹===一夹一顶装夹===花盘"
+    },
+    {
+      "id": 1014690140,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "车床光杠的作用是 ___；丝杠的作用是 ___。作为传动件的丝杠，其牙型一般为 ___ 螺纹。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "自动走刀",
+        "车削螺纹",
+        "梯形"
+      ],
+      "rawAnswers": [
+        "自动走刀",
+        "车削螺纹",
+        "梯形"
+      ],
+      "ocsAnswer": "自动走刀===车削螺纹===梯形"
+    },
+    {
+      "id": 1014690141,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "切削用量三要素是指 ___、单位是 ___；___、单位是 ___；___、单位是 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "切削速度",
+        "m/min",
+        "进给量",
+        "mm/r",
+        "吃刀量",
+        "mm"
+      ],
+      "rawAnswers": [
+        "切削速度",
+        "m/min",
+        "进给量",
+        "mm/r",
+        "吃刀量",
+        "mm"
+      ],
+      "ocsAnswer": "切削速度===m/min===进给量===mm/r===吃刀量===mm"
+    },
+    {
+      "id": 1014690142,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "在车床上加工锥度的方法有四种。1）___ 适用于 ___，粗糙度为 ___；2）___ 适用于 ___，粗糙度为 ___；3）___ 适用于 ___，粗糙度为 ___；4）___ 适用于 ___，粗糙度为 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "转动小托板法",
+        "低精度锥面",
+        "6.3~1.6 um",
+        "偏转尾座法",
+        "加工长锥面",
+        "6.3~1.6 um",
+        "靠模法",
+        "长锥面斜度大的工件",
+        "6.3~1.6 um",
+        "宽刀刃法",
+        "锥度大的工件",
+        "6.3~1.6 um"
+      ],
+      "rawAnswers": [
+        "转动小托板法",
+        "低精度锥面",
+        "6.3~1.6 um",
+        "偏转尾座法",
+        "加工长锥面",
+        "6.3~1.6 um",
+        "靠模法",
+        "长锥面斜度大的工件",
+        "6.3~1.6 um",
+        "宽刀刃法",
+        "锥度大的工件",
+        "6.3~1.6 um"
+      ],
+      "ocsAnswer": "转动小托板法===低精度锥面===6.3~1.6 um===偏转尾座法===加工长锥面===6.3~1.6 um===靠模法===长锥面斜度大的工件===6.3~1.6 um===宽刀刃法===锥度大的工件===6.3~1.6 um"
+    },
+    {
+      "id": 1014690144,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "常用的刀具材料有 ___ 和 ___ 两大类；车刀切削部分材料应具有 ___、___、___ 和 ___ 等性能。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "高碳钢",
+        "硬质合金",
+        "硬度高",
+        "高耐磨性",
+        "高韧性",
+        "耐高温"
+      ],
+      "rawAnswers": [
+        "高碳钢",
+        "硬质合金",
+        "硬度高",
+        "高耐磨性",
+        "高韧性",
+        "耐高温"
+      ],
+      "ocsAnswer": "高碳钢===硬质合金===硬度高===高耐磨性===高韧性===耐高温"
+    },
+    {
+      "id": 1014690145,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "在普通车床上加工内孔的方法有 ___、___、___ 和 ___ 等。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "钻孔",
+        "扩孔",
+        "铰孔",
+        "镗孔"
+      ],
+      "rawAnswers": [
+        "钻孔",
+        "扩孔",
+        "铰孔",
+        "镗孔"
+      ],
+      "ocsAnswer": "钻孔===扩孔===铰孔===镗孔"
+    },
+    {
+      "id": 1014690146,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "外圆车削时的主运动是 ___ 运动；进给运动是 ___ 运动。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "工件的旋转",
+        "刀的直线或曲线"
+      ],
+      "rawAnswers": [
+        "工件的旋转",
+        "刀的直线或曲线"
+      ],
+      "ocsAnswer": "工件的旋转===刀的直线或曲线"
+    },
+    {
+      "id": 1014690147,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "下图所示为弯头车刀刀头的几何形状，试说明车外圆、车端面 (由外向中心进给) 时的正切削刃、副切削刃、刀尖。\n\n车外圆时：主切削刃 ___、副切削刃 ___、刀尖 ___。车端面时：主切削刃 ___、副切削刃 ___、刀尖 ___。",
+      "images": [
+        "https://image.zhihuishu.com/zhs/question-import/formula/202604/01ea2a8f2a9a47fbbd35de35b8db1e0d.png"
+      ],
+      "localImages": [
+        "assets/q-images/1014690147.png"
+      ],
+      "options": [],
+      "answers": [
+        "6",
+        "2",
+        "4",
+        "2",
+        "6",
+        "4"
+      ],
+      "rawAnswers": [
+        "6",
+        "2",
+        "4",
+        "2",
+        "6",
+        "4"
+      ],
+      "ocsAnswer": "6===2===4===2===6===4"
+    },
+    {
+      "id": 1014690148,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "切削液在金属切削加工中主要起 ___、___ 等作用。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "冷却",
+        "润滑"
+      ],
+      "rawAnswers": [
+        "冷却",
+        "润滑"
+      ],
+      "ocsAnswer": "冷却===润滑"
+    },
+    {
+      "id": 1014690149,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "切削加工中，根据形状切屑一般分为 ___ 切屑、___ 切屑、___ 切屑。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "带状",
+        "节状",
+        "粒状"
+      ],
+      "rawAnswers": [
+        "带状",
+        "节状",
+        "粒状"
+      ],
+      "ocsAnswer": "带状===节状===粒状"
+    },
+    {
+      "id": 1014690150,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "三爪卡盘的三个卡爪可同时向中心 ___，因此具有自动 ___ 的作用；四爪卡盘的四个爪是单独移动的，安装工件时须进行仔细的 ___ 工作。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "靠近或退出",
+        "定心",
+        "找正"
+      ],
+      "rawAnswers": [
+        "靠近或退出",
+        "定心",
+        "找正"
+      ],
+      "ocsAnswer": "靠近或退出===定心===找正"
+    },
+    {
+      "id": 1014690151,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "车削细长轴时为防止切削力使轴变形，常用的机床附件是 ___ 和 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "中心架",
+        "跟刀架"
+      ],
+      "rawAnswers": [
+        "中心架",
+        "跟刀架"
+      ],
+      "ocsAnswer": "中心架===跟刀架"
+    },
+    {
+      "id": 1014690152,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "车刀安装在车床的 ___ 上，刀尖应与车床的 ___ 等高；刀杆中心线应与 ___ 垂直。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "刀架",
+        "主轴线",
+        "走刀方向"
+      ],
+      "rawAnswers": [
+        "刀架",
+        "主轴线",
+        "走刀方向"
+      ],
+      "ocsAnswer": "刀架===主轴线===走刀方向"
+    },
+    {
+      "id": 1014690153,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "车削加工的进给运动是：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "工件的旋转",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "刀具的移动",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "主轴的旋转",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "刀具的移动"
+      ],
+      "rawAnswers": [
+        "刀具的移动"
+      ],
+      "ocsAnswer": "刀具的移动"
+    },
+    {
+      "id": 1014690154,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "车削能够加工的平面是：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "窄长平面",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "一般平面",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "轴、盘、套类零件的端面",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "轴、盘、套类零件的端面"
+      ],
+      "rawAnswers": [
+        "轴、盘、套类零件的端面"
+      ],
+      "ocsAnswer": "轴、盘、套类零件的端面"
+    },
+    {
+      "id": 1014690155,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "车阶梯轴时常选用的刀具是：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "偏刀",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "直头尖刀",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "弯头车刀",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "偏刀"
+      ],
+      "rawAnswers": [
+        "偏刀"
+      ],
+      "ocsAnswer": "偏刀"
+    },
+    {
+      "id": 1014690156,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "在车床上需将 60mm 的内孔加工成 90mm，应选用：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "钻孔",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "铰孔",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "镗孔",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "镗孔"
+      ],
+      "rawAnswers": [
+        "镗孔"
+      ],
+      "ocsAnswer": "镗孔"
+    },
+    {
+      "id": 1014690157,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "车床附件跟刀架应装在车床的：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "大拖板左侧",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "大拖板右侧",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "床身导轨上",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "大拖板左侧"
+      ],
+      "rawAnswers": [
+        "大拖板左侧"
+      ],
+      "ocsAnswer": "大拖板左侧"
+    },
+    {
+      "id": 1014690158,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "车螺纹会产生乱扣的原因是：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "前、后两次走刀的轨迹不重合",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "丝杠转数与工件转数成正比",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "刀具安装不正确",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "前、后两次走刀的轨迹不重合"
+      ],
+      "rawAnswers": [
+        "前、后两次走刀的轨迹不重合"
+      ],
+      "ocsAnswer": "前、后两次走刀的轨迹不重合"
+    },
+    {
+      "id": 1014690159,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "车床附件中心架应装在：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "床身导轨上",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "小刀架上",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "大拖板上",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "床身导轨上"
+      ],
+      "rawAnswers": [
+        "床身导轨上"
+      ],
+      "ocsAnswer": "床身导轨上"
+    },
+    {
+      "id": 1014690160,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "车外圆时，车刀刀尖高于工件轴线则会产生（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "加工面母线不直",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "圆度产生误差",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "加工面表面粗糙度值大",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "加工面表面粗糙度值大"
+      ],
+      "rawAnswers": [
+        "加工面表面粗糙度值大"
+      ],
+      "ocsAnswer": "加工面表面粗糙度值大"
+    },
+    {
+      "id": 1014690161,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "采用中心架与跟刀架做辅助支承，主要用于（ ）的车削。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "复杂零件",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "细长轴",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "长锥体",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "螺纹件",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "细长轴"
+      ],
+      "rawAnswers": [
+        "细长轴"
+      ],
+      "ocsAnswer": "细长轴"
+    },
+    {
+      "id": 1014690162,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "multiple",
+      "typeName": "多选题",
+      "score": 0.3,
+      "title": "车削加工中，减小残留面积的高度，减小表面粗糙度值，可使用的正确方法有（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "减小主偏角",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "提高切削速度",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "减小进给量",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "减小背吃刀量 (切削深度)",
+          "isCorrect": true
+        },
+        {
+          "label": "E",
+          "text": "减小副偏角",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "减小主偏角",
+        "提高切削速度",
+        "减小进给量",
+        "减小背吃刀量 (切削深度)",
+        "减小副偏角"
+      ],
+      "rawAnswers": [
+        "减小主偏角",
+        "提高切削速度",
+        "减小进给量",
+        "减小背吃刀量 (切削深度)",
+        "减小副偏角"
+      ],
+      "ocsAnswer": "减小主偏角===提高切削速度===减小进给量===减小背吃刀量 (切削深度)===减小副偏角"
+    },
+    {
+      "id": 1014690163,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "车削进行时，工件存在已加工表面、加工表面和待加工表面。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "对"
+      ],
+      "rawAnswers": [
+        "对"
+      ],
+      "ocsAnswer": "对"
+    },
+    {
+      "id": 1014690164,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "在车床上钻孔和在钻床上钻孔一样，钻头既作主运动又作进给运动。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014690165,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "车床的切削速度越高，则主轴的转速也越高。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014690166,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "车刀的主偏角越大，径向力反而越小。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "对"
+      ],
+      "rawAnswers": [
+        "对"
+      ],
+      "ocsAnswer": "对"
+    },
+    {
+      "id": 1014690167,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "切削加工时，由于机床不同，主运动也不同。主运动可以是一个或有几个。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014690168,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "车削螺纹时，如车床纵向丝杠与所需车削导程为整倍数，则在任何情况下都不会出现 “乱扣” 现象。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014690169,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "在刀具角度中，对工件已加工表面 Ra 影响最大的是副偏角。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "对"
+      ],
+      "rawAnswers": [
+        "对"
+      ],
+      "ocsAnswer": "对"
+    },
+    {
+      "id": 1014690170,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "加工余量的分配与工序性质有关。一般粗加工时余量大，粗加工时余量小。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014690171,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "切削速度是指车床主运动的线速度。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014690172,
+      "module": "车削",
+      "homeworkTitle": "作业任务车削",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "要改变主轴转速，必须停车进行。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "对"
+      ],
+      "rawAnswers": [
+        "对"
+      ],
+      "ocsAnswer": "对"
+    },
+    {
+      "id": 1011548859,
+      "module": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "铸件产生粘砂的主要原因是：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "型砂水分太多",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "舂砂太紧实",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "型砂芯砂耐火度不足或浇注温度太高",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "型砂芯砂耐火度不足或浇注温度太高"
+      ],
+      "rawAnswers": [
+        "型砂芯砂耐火度不足或浇注温度太高"
+      ],
+      "ocsAnswer": "型砂芯砂耐火度不足或浇注温度太高"
+    },
+    {
+      "id": 1011548860,
+      "module": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "铸件产生冷隔的原因是：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "浇注速度太快",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "浇注温度太低",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "铸型舂砂太紧",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "浇注温度太低"
+      ],
+      "rawAnswers": [
+        "浇注温度太低"
+      ],
+      "ocsAnswer": "浇注温度太低"
+    },
+    {
+      "id": 1011548861,
+      "module": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "挖砂造型时，挖砂的深度应该达到：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "露出模样",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "挖到模样的最大截面以下",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "刚好挖到模样的最大截面处",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "刚好挖到模样的最大截面处"
+      ],
+      "rawAnswers": [
+        "刚好挖到模样的最大截面处"
+      ],
+      "ocsAnswer": "刚好挖到模样的最大截面处"
+    },
+    {
+      "id": 1011548863,
+      "module": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "明冒口除了具有补缩、排气、浮渣、观查作用外还有：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "补浇",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "防粘沙",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "便于造型",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "补浇"
+      ],
+      "rawAnswers": [
+        "补浇"
+      ],
+      "ocsAnswer": "补浇"
+    },
+    {
+      "id": 1011548864,
+      "module": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "金属型铸造主要用于浇注：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "低碳钢",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "铝合金和镁合金",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "灰口铁",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "铝合金和镁合金"
+      ],
+      "rawAnswers": [
+        "铝合金和镁合金"
+      ],
+      "ocsAnswer": "铝合金和镁合金"
+    },
+    {
+      "id": 1011548865,
+      "module": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "铸件的壁太厚其强度反而降低主要原因是：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "容易浇不足",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "冷隔严重",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "组织疏松",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "组织疏松"
+      ],
+      "rawAnswers": [
+        "组织疏松"
+      ],
+      "ocsAnswer": "组织疏松"
+    },
+    {
+      "id": 1011548866,
+      "module": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "铸件浇注以后立即落沙容易获得：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "灰口铸铁",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "球墨铸铁",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "白口铸铁",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "白口铸铁"
+      ],
+      "rawAnswers": [
+        "白口铸铁"
+      ],
+      "ocsAnswer": "白口铸铁"
+    },
+    {
+      "id": 1011548867,
+      "module": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "分型面和分模面是：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "相同的",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "不同的",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "有时相同的",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "有时相同的"
+      ],
+      "rawAnswers": [
+        "有时相同的"
+      ],
+      "ocsAnswer": "有时相同的"
+    },
+    {
+      "id": 1011548868,
+      "module": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "在制好的砂型的型腔表面上涂刷一层涂料的目的是：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "防止粘沙",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "提高流动性",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "防止缩松",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "防止粘沙"
+      ],
+      "rawAnswers": [
+        "防止粘沙"
+      ],
+      "ocsAnswer": "防止粘沙"
+    },
+    {
+      "id": 1011548869,
+      "module": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "分型砂的作用是使（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "分型面光洁",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "上砂型与下砂型顺利分开",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "改善透气性",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "上砂型与下砂型顺利分开"
+      ],
+      "rawAnswers": [
+        "上砂型与下砂型顺利分开"
+      ],
+      "ocsAnswer": "上砂型与下砂型顺利分开"
+    },
+    {
+      "id": 1011548870,
+      "module": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "通常不需要型芯和浇注系统即可获得空心旋转体铸件的铸造方法是（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "熔模铸造",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "压力铸造",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "金属型铸造",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "离心铸造",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "离心铸造"
+      ],
+      "rawAnswers": [
+        "离心铸造"
+      ],
+      "ocsAnswer": "离心铸造"
+    },
+    {
+      "id": 1011548871,
+      "module": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "砂型铸造是生产大型铸件的唯一方法。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1011548872,
+      "module": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "铸件的重要受力面浇注时应位于铸型的上部。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1011548873,
+      "module": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "模样尺寸比零件尺寸大；铸件尺寸比模样尺寸小又比零件尺寸大。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "对"
+      ],
+      "rawAnswers": [
+        "对"
+      ],
+      "ocsAnswer": "对"
+    },
+    {
+      "id": 1011548874,
+      "module": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "造型时，砂型的分型面一般应取在铸件的最大截面处。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "对"
+      ],
+      "rawAnswers": [
+        "对"
+      ],
+      "ocsAnswer": "对"
+    },
+    {
+      "id": 1011548875,
+      "module": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "冒口主要起补缩作用，其位置应设置在铸件的最高处。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1011548876,
+      "module": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "当铸件生产批量较大时，都可用机器造型代替手工造型。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1011548877,
+      "module": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "用压力铸造可以生产出双金属铸件。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1011548878,
+      "module": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "熔模铸造无分型面，故铸件的尺寸精度较高。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "对"
+      ],
+      "rawAnswers": [
+        "对"
+      ],
+      "ocsAnswer": "对"
+    },
+    {
+      "id": 1011548879,
+      "module": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "烘干型芯的目的是为了提高其退让性。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1011548880,
+      "module": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "同一砂型中各处的紧实度都应一样，才能保证铸型强度。 （ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "对"
+      ],
+      "rawAnswers": [
+        "对"
+      ],
+      "ocsAnswer": "对"
+    },
+    {
+      "id": 1014773210,
+      "module": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "type": "multiple",
+      "typeName": "多选题",
+      "score": 0.3,
+      "title": "模样上的外壁尺寸应比铸件外壁厚（ ）而模样内部孔腔尺寸应比铸件孔腔尺寸（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "大",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "小",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "相等",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "大",
+        "小"
+      ],
+      "rawAnswers": [
+        "大",
+        "小"
+      ],
+      "ocsAnswer": "大===小"
+    },
+    {
+      "id": 1015147350,
+      "module": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "珠宝铸造常用铸粉（石膏粉）主要作用是（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "粘结蜡模",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "制作耐火铸型型腔、耐高温成型",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "加固蜡树",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "清洗首饰",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "制作耐火铸型型腔、耐高温成型"
+      ],
+      "rawAnswers": [
+        "制作耐火铸型型腔、耐高温成型"
+      ],
+      "ocsAnswer": "制作耐火铸型型腔、耐高温成型"
+    },
+    {
+      "id": 1015147356,
+      "module": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "珠宝铸件表面出现麻点、气孔，原因不包括（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "石膏铸型排气不良",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "金属液含气量大",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "脱蜡残留油污",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "离心转速过高",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "离心转速过高"
+      ],
+      "rawAnswers": [
+        "离心转速过高"
+      ],
+      "ocsAnswer": "离心转速过高"
+    },
+    {
+      "id": 1015147363,
+      "module": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "焙烧曲线三阶段：低温排水分、___、高温恒温烧透型腔。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "脱蜡排脂"
+      ],
+      "rawAnswers": [
+        "脱蜡排脂"
+      ],
+      "ocsAnswer": "脱蜡排脂"
+    },
+    {
+      "id": 1015147369,
+      "module": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "珠宝铸造常见五大缺陷：气孔、___、变形、浇不足、裂纹。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "缩孔 (缩松)"
+      ],
+      "rawAnswers": [
+        "缩孔 (缩松)"
+      ],
+      "ocsAnswer": "缩孔 (缩松)"
+    },
+    {
+      "id": 1015147381,
+      "module": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "剪枝时用力过猛容易拉扯铸件变形、开裂。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "对"
+      ],
+      "rawAnswers": [
+        "对"
+      ],
+      "ocsAnswer": "对"
+    },
+    {
+      "id": 1015147382,
+      "module": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "电镀前必须彻底抛光除氧化，否则电镀层容易起皮掉色。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "对"
+      ],
+      "rawAnswers": [
+        "对"
+      ],
+      "ocsAnswer": "对"
+    },
+    {
+      "id": 1015147383,
+      "module": "铸造",
+      "homeworkTitle": "作业任务铸造",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "石膏铸粉固化越快，产品品质越高。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014775314,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "你实习操作所用的焊机名称：___，型号 ___，其初级电压为 ___ V，空载电压为 ___ V，额定电流为 ___，电流调节范围为 ___；所用焊条牌号是 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "多功能弧焊机",
+        "WSM-300B1",
+        "380",
+        "60~70",
+        "300A",
+        "5~300A",
+        "J422"
+      ],
+      "rawAnswers": [
+        "多功能弧焊机",
+        "WSM-300B1",
+        "380",
+        "60~70",
+        "300A",
+        "5~300A",
+        "J422"
+      ],
+      "ocsAnswer": "多功能弧焊机===WSM-300B1===380===60~70===300A===5~300A===J422"
+    },
+    {
+      "id": 1014775315,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "手工电弧焊的引弧方法有 ___ 法和 ___ 法两种。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "敲击引弧",
+        "摩擦引弧"
+      ],
+      "rawAnswers": [
+        "敲击引弧",
+        "摩擦引弧"
+      ],
+      "ocsAnswer": "敲击引弧===摩擦引弧"
+    },
+    {
+      "id": 1014775316,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "直流弧焊机的反接法是将电焊条接在焊机的 ___；焊件接在焊机的 ___，适于焊接 ___ 工件和使用 ___ 焊条时采用。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "正极",
+        "负极",
+        "薄板",
+        "碱性"
+      ],
+      "rawAnswers": [
+        "正极",
+        "负极",
+        "薄板",
+        "碱性"
+      ],
+      "ocsAnswer": "正极===负极===薄板===碱性"
+    },
+    {
+      "id": 1014775317,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "电焊条钢芯的作用是 ___；药皮的主要作用有 ___、___ 和 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "电极导电，熔化后作为填充金属",
+        "造渣造气（保护）；脱氧还原（冶金处理）；渗合金（补充烧损的合金元素）",
+        "造渣造气（保护）；脱氧还原（冶金处理）；渗合金（补充烧损的合金元素）",
+        "造渣造气（保护）；脱氧还原（冶金处理）；渗合金（补充烧损的合金元素）"
+      ],
+      "rawAnswers": [
+        "电极导电，熔化后作为填充金属",
+        "造渣造气（保护）；脱氧还原（冶金处理）；渗合金（补充烧损的合金元素）",
+        "造渣造气（保护）；脱氧还原（冶金处理）；渗合金（补充烧损的合金元素）",
+        "造渣造气（保护）；脱氧还原（冶金处理）；渗合金（补充烧损的合金元素）"
+      ],
+      "ocsAnswer": "电极导电，熔化后作为填充金属===造渣造气（保护）；脱氧还原（冶金处理）；渗合金（补充烧损的合金元素）===造渣造气（保护）；脱氧还原（冶金处理）；渗合金（补充烧损的合金元素）===造渣造气（保护）；脱氧还原（冶金处理）；渗合金（补充烧损的合金元素）"
+    },
+    {
+      "id": 1014775318,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "电焊条 E4303 中 E 表示 ___，43 表示 ___，0 表示 ___，末位 3 表示 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "焊条",
+        "焊缝金属最小抗拉强度≥430MPa",
+        "全方位焊接适用",
+        "酸性焊条（钛钙型药皮）"
+      ],
+      "rawAnswers": [
+        "焊条",
+        "焊缝金属最小抗拉强度≥430MPa",
+        "全方位焊接适用",
+        "酸性焊条（钛钙型药皮）"
+      ],
+      "ocsAnswer": "焊条===焊缝金属最小抗拉强度≥430MPa===全方位焊接适用===酸性焊条（钛钙型药皮）"
+    },
+    {
+      "id": 1014775319,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "焊接构件的接头型式有 ___、___、___ 和 ___ 四种。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "对接",
+        "搭接",
+        "角接",
+        "T 型接"
+      ],
+      "rawAnswers": [
+        "对接",
+        "搭接",
+        "角接",
+        "T 型接"
+      ],
+      "ocsAnswer": "对接===搭接===角接===T 型接"
+    },
+    {
+      "id": 1014775320,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "气焊三种火焰中温度最高是 ___，温度达 ___ 度，它只能焊接 ___ 材料。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "氧化焰",
+        "3350",
+        "抗氧化性强的"
+      ],
+      "rawAnswers": [
+        "氧化焰",
+        "3350",
+        "抗氧化性强的"
+      ],
+      "ocsAnswer": "氧化焰===3350===抗氧化性强的"
+    },
+    {
+      "id": 1014775321,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "简述下列各组名词术语 (定义、作用、区别)。\n焊接接头：___；\n焊接热影响区：___；焊缝：___；\n母材：___；\n熔宽：___；\n熔深：___；\n余高：___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "两个或两个以上零件通过焊接连接形成的结合部位，由焊缝、熔合区和热影响区组成",
+        "在焊接热作用下，焊缝两侧处于固态的母材发生组织和性能变化的区域",
+        "焊接过程中，母材与填充金属熔化后凝固形成的结合部分",
+        "被焊接的工件材料",
+        "焊缝表面上，两个工件被熔化的宽度",
+        "母材被熔化的最深部分与母材表面的垂直距离",
+        "焊缝金属表面超出母材表面的垂直距离"
+      ],
+      "rawAnswers": [
+        "两个或两个以上零件通过焊接连接形成的结合部位，由焊缝、熔合区和热影响区组成",
+        "在焊接热作用下，焊缝两侧处于固态的母材发生组织和性能变化的区域",
+        "焊接过程中，母材与填充金属熔化后凝固形成的结合部分",
+        "被焊接的工件材料",
+        "焊缝表面上，两个工件被熔化的宽度",
+        "母材被熔化的最深部分与母材表面的垂直距离",
+        "焊缝金属表面超出母材表面的垂直距离"
+      ],
+      "ocsAnswer": "两个或两个以上零件通过焊接连接形成的结合部位，由焊缝、熔合区和热影响区组成===在焊接热作用下，焊缝两侧处于固态的母材发生组织和性能变化的区域===焊接过程中，母材与填充金属熔化后凝固形成的结合部分===被焊接的工件材料===焊缝表面上，两个工件被熔化的宽度===母材被熔化的最深部分与母材表面的垂直距离===焊缝金属表面超出母材表面的垂直距离"
+    },
+    {
+      "id": 1014775322,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "能够气割的材料必须满足三条件是：①___；②___；③___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "金属的燃点必须低于其熔点",
+        "燃烧生成的金属氧化物的熔点应低于金属本身的熔点，且流动性要好",
+        "金属燃烧时能放出大量的热，且金属本身的导热性要低"
+      ],
+      "rawAnswers": [
+        "金属的燃点必须低于其熔点",
+        "燃烧生成的金属氧化物的熔点应低于金属本身的熔点，且流动性要好",
+        "金属燃烧时能放出大量的热，且金属本身的导热性要低"
+      ],
+      "ocsAnswer": "金属的燃点必须低于其熔点===燃烧生成的金属氧化物的熔点应低于金属本身的熔点，且流动性要好===金属燃烧时能放出大量的热，且金属本身的导热性要低"
+    },
+    {
+      "id": 1014775323,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "常用的电阻焊方法有 ___、___ 和 ___ 三种。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "点焊",
+        "缝焊",
+        "对焊"
+      ],
+      "rawAnswers": [
+        "点焊",
+        "缝焊",
+        "对焊"
+      ],
+      "ocsAnswer": "点焊===缝焊===对焊"
+    },
+    {
+      "id": 1014775324,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "把硬质合金刀片焊接在普通碳素结构钢刀体上应采用：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "熔化焊",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "压力焊",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "钎焊",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "钎焊"
+      ],
+      "rawAnswers": [
+        "钎焊"
+      ],
+      "ocsAnswer": "钎焊"
+    },
+    {
+      "id": 1014775325,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "下列焊机中属于交流焊机的是：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "AX₁-500",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "ZXG-300",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "BX₁-330",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "BX₁-330"
+      ],
+      "rawAnswers": [
+        "BX₁-330"
+      ],
+      "ocsAnswer": "BX₁-330"
+    },
+    {
+      "id": 1014775326,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "电焊条 E4303 的焊缝抗拉强度最小值是：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "430Mpa",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "303Mpa",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "420MPa",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "430Mpa"
+      ],
+      "rawAnswers": [
+        "430Mpa"
+      ],
+      "ocsAnswer": "430Mpa"
+    },
+    {
+      "id": 1014775327,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "用手弧焊对接头焊接 5mm 的工件时坡口形式是：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Y 型坡口",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "不开坡口（I 型坡口）",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "双 Y 形坡口",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "不开坡口（I 型坡口）"
+      ],
+      "rawAnswers": [
+        "不开坡口（I 型坡口）"
+      ],
+      "ocsAnswer": "不开坡口（I 型坡口）"
+    },
+    {
+      "id": 1014775328,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "直径为 4mm 的电焊条，选择的焊接电流数值是：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "40—80A",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "120—220A",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "250—300A",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "120—220A"
+      ],
+      "rawAnswers": [
+        "120—220A"
+      ],
+      "ocsAnswer": "120—220A"
+    },
+    {
+      "id": 1014775329,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "操作中最理想的焊接位置是：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "立焊",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "横焊",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "平焊",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "平焊"
+      ],
+      "rawAnswers": [
+        "平焊"
+      ],
+      "ocsAnswer": "平焊"
+    },
+    {
+      "id": 1014775330,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "属于熔化焊的焊接方法是：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "点焊",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "气焊",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "烙铁钎焊",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "气焊"
+      ],
+      "rawAnswers": [
+        "气焊"
+      ],
+      "ocsAnswer": "气焊"
+    },
+    {
+      "id": 1014775331,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "焊接构件中采用最多的接头型式是：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对接",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "搭接",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "角接",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "对接"
+      ],
+      "rawAnswers": [
+        "对接"
+      ],
+      "ocsAnswer": "对接"
+    },
+    {
+      "id": 1014775332,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "用气焊焊接低碳钢件时应该采用：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "氧化焰",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "碳化焰",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "中性焰",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "中性焰"
+      ],
+      "rawAnswers": [
+        "中性焰"
+      ],
+      "ocsAnswer": "中性焰"
+    },
+    {
+      "id": 1014775333,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "气焊火焰的温度比手弧焊电弧的温度更：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "高",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "低",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "差不多",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "低"
+      ],
+      "rawAnswers": [
+        "低"
+      ],
+      "ocsAnswer": "低"
+    },
+    {
+      "id": 1014775334,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "碱性电焊条采用直流焊机焊接的原因是：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "减少变形",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "增大熔化量",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "稳定电弧",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "稳定电弧"
+      ],
+      "rawAnswers": [
+        "稳定电弧"
+      ],
+      "ocsAnswer": "稳定电弧"
+    },
+    {
+      "id": 1014775335,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "手弧焊接时产生焊接变形的根本原因是：（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "焊件受局部不均匀的加热",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "焊接电流太大",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "焊后冷却太快",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "焊件受局部不均匀的加热"
+      ],
+      "rawAnswers": [
+        "焊件受局部不均匀的加热"
+      ],
+      "ocsAnswer": "焊件受局部不均匀的加热"
+    },
+    {
+      "id": 1014775336,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "焊接方法按原理可分为熔化焊、压力焊和钎焊三大类。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "对"
+      ],
+      "rawAnswers": [
+        "对"
+      ],
+      "ocsAnswer": "对"
+    },
+    {
+      "id": 1014775337,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "低碳钢和低合金结构钢是制作焊接结构件的主要材料。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "对"
+      ],
+      "rawAnswers": [
+        "对"
+      ],
+      "ocsAnswer": "对"
+    },
+    {
+      "id": 1014775339,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "焊接时，为提高生产率焊接电流选得越大越好。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014775340,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "因为气焊的火焰温度比电弧焊低，加热缓慢，故焊接变形小。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014775341,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "摩擦焊是利用摩擦热来熔化焊件接触面实现连接的熔焊方法。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014775342,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "点焊及缝焊都属于电弧焊。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014775343,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "目前成批及大批量生产中，焊接汽车车架常用半自动 CO₂气体保护焊。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "对"
+      ],
+      "rawAnswers": [
+        "对"
+      ],
+      "ocsAnswer": "对"
+    },
+    {
+      "id": 1014775344,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "压力焊只需加压，不必加热。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014775345,
+      "module": "焊接",
+      "homeworkTitle": "作业任务焊接",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "酸性药皮电焊条的焊接工艺性差但焊缝机械性能好，所以使用十分广泛。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014779838,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "用划线工具在毛坯或半成品上划出 ___ 的工作，称为划线，根据复杂程度，划线可分为 ___ 划线和 ___ 划线两种。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "加工界限",
+        "平面；立体",
+        "平面；立体"
+      ],
+      "rawAnswers": [
+        "加工界限",
+        "平面；立体",
+        "平面；立体"
+      ],
+      "ocsAnswer": "加工界限===平面；立体===平面；立体"
+    },
+    {
+      "id": 1014779839,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "在手锯上安装锯条时，锯条齿尖方向应 ___。锯削速度以 ___ 往复行程 / 分为宜，锯软材料时可 ___ 些；锯硬材料时可 ___ 些。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "朝前",
+        "20-40 次",
+        "选用粗齿",
+        "选用细齿"
+      ],
+      "rawAnswers": [
+        "朝前",
+        "20-40 次",
+        "选用粗齿",
+        "选用细齿"
+      ],
+      "ocsAnswer": "朝前===20-40 次===选用粗齿===选用细齿"
+    },
+    {
+      "id": 1014779840,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "锉削平面的方法有 ___ 锉法，___ 锉法和 ___ 锉法。攻丝和套扣分别为加工 ___ 和 ___ 的操作。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "顺向",
+        "交叉",
+        "推",
+        "内螺纹",
+        "外螺纹"
+      ],
+      "rawAnswers": [
+        "顺向；交叉；推",
+        "顺向；交叉；推",
+        "顺向；交叉；推",
+        "内螺纹；外螺纹",
+        "内螺纹；外螺纹"
+      ],
+      "ocsAnswer": "顺向===交叉===推===内螺纹===外螺纹"
+    },
+    {
+      "id": 1014779841,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "麻花钻头锥柄的主要作用是：a ___，b ___。它是通过 ___ 安装在钻床主轴孔内。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "夹持固定；定心并传递轴向力和扭矩",
+        "夹持固定；定心并传递轴向力和扭矩",
+        "钻套（或过渡锥套）"
+      ],
+      "rawAnswers": [
+        "夹持固定；定心并传递轴向力和扭矩",
+        "夹持固定；定心并传递轴向力和扭矩",
+        "钻套（或过渡锥套）"
+      ],
+      "ocsAnswer": "夹持固定；定心并传递轴向力和扭矩===夹持固定；定心并传递轴向力和扭矩===钻套（或过渡锥套）"
+    },
+    {
+      "id": 1014779842,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "麻花钻头有两条螺旋槽，其作用是：a ___，b ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "排屑和输送冷却液",
+        "形成切削刃和前角"
+      ],
+      "rawAnswers": [
+        "排屑和输送冷却液",
+        "形成切削刃和前角"
+      ],
+      "ocsAnswer": "排屑和输送冷却液===形成切削刃和前角"
+    },
+    {
+      "id": 1014779843,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "麻花钻头切削部分两个主后面的交线叫做 ___ 刃，它是麻花钻特有的。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "横"
+      ],
+      "rawAnswers": [
+        "横"
+      ],
+      "ocsAnswer": "横"
+    },
+    {
+      "id": 1014779844,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "当麻花钻头锥柄锥度小于钻床主轴锥度时，应采用 ___ 套筒，此套筒的外锥度应与 ___ 锥度相同，内锥度应与 ___ 锥度相同。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "过渡锥",
+        "钻床主轴",
+        "钻头锥柄"
+      ],
+      "rawAnswers": [
+        "过渡锥",
+        "钻床主轴",
+        "钻头锥柄"
+      ],
+      "ocsAnswer": "过渡锥===钻床主轴===钻头锥柄"
+    },
+    {
+      "id": 1014779845,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "扩孔钻刚性较麻花钻好的原因：a ___，b ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "钻芯粗大、刚性好",
+        "刃多、切削平稳，导向性好"
+      ],
+      "rawAnswers": [
+        "钻芯粗大、刚性好",
+        "刃多、切削平稳，导向性好"
+      ],
+      "ocsAnswer": "钻芯粗大、刚性好===刃多、切削平稳，导向性好"
+    },
+    {
+      "id": 1014779846,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "在工件上钻孔，即将钻穿时，钻头的走刀量应相应 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "减小"
+      ],
+      "rawAnswers": [
+        "减小"
+      ],
+      "ocsAnswer": "减小"
+    },
+    {
+      "id": 1014779847,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "箱体零件上的许多大孔，同轴孔，平行孔为保证其尺寸和位置精度，一般都是在 ___ 床上加工。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "坐标镗床"
+      ],
+      "rawAnswers": [
+        "坐标镗床"
+      ],
+      "ocsAnswer": "坐标镗床"
+    },
+    {
+      "id": 1014779849,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "选择划线基准时，应尽量使划线基准与图纸上的设计基准一致。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "对"
+      ],
+      "rawAnswers": [
+        "对"
+      ],
+      "ocsAnswer": "对"
+    },
+    {
+      "id": 1014779850,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "锯削时，只要锯条安装正确就能够顺利地进行锯削。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014779851,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "锉削外圆弧面时，锉刀在向前推进的同时，还应绕工件圆弧中心摆动。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "对"
+      ],
+      "rawAnswers": [
+        "对"
+      ],
+      "ocsAnswer": "对"
+    },
+    {
+      "id": 1014779852,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "钻削时，主运动和进给运动都是由钻头完成的。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "对"
+      ],
+      "rawAnswers": [
+        "对"
+      ],
+      "ocsAnswer": "对"
+    },
+    {
+      "id": 1014779853,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "攻盲孔螺纹时，由于丝锥不能攻到孔底，所以钻孔深度应大于螺纹深度。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "对"
+      ],
+      "rawAnswers": [
+        "对"
+      ],
+      "ocsAnswer": "对"
+    },
+    {
+      "id": 1014779854,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "只要零件的加工精度高，就能保证产品的装配质量。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014779855,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "装配应按先拆先装后拆后装的顺序进行。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014779856,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "完全互换法使装配工作简单、经济且生产率高。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "对"
+      ],
+      "rawAnswers": [
+        "对"
+      ],
+      "ocsAnswer": "对"
+    },
+    {
+      "id": 1014779857,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "用螺栓、螺钉与螺母连接零件时，贴合面应平整光洁否则螺纹易松动。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "对"
+      ],
+      "rawAnswers": [
+        "对"
+      ],
+      "ocsAnswer": "对"
+    },
+    {
+      "id": 1014779858,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "成组螺纹连接时，螺钉或螺母拧紧顺序应该是一个接一个进行。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014779859,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "对不规则的大工件划线时应选用（ ）支承工件。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "V 形铁",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "千斤顶",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "方箱",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "平板",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "千斤顶"
+      ],
+      "rawAnswers": [
+        "千斤顶"
+      ],
+      "ocsAnswer": "千斤顶"
+    },
+    {
+      "id": 1014779860,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "锉削余量较大平面时，应采用（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "顺向锉法",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "交叉锉法",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "推锉法",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "任意锉法",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "交叉锉法"
+      ],
+      "rawAnswers": [
+        "交叉锉法"
+      ],
+      "ocsAnswer": "交叉锉法"
+    },
+    {
+      "id": 1014779861,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "钻孔时，孔径扩大的原因是（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "钻削速度太快",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "钻头两条主切削刃长度不等",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "进给量太大",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "钻头两条主切削刃长度不等"
+      ],
+      "rawAnswers": [
+        "钻头两条主切削刃长度不等"
+      ],
+      "ocsAnswer": "钻头两条主切削刃长度不等"
+    },
+    {
+      "id": 1014779862,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "锯削薄壁圆管时应采用（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "一次装夹锯断",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "锯到圆管当中翻转 180℃，二次装夹后锯断",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "每锯到圆管内壁时，将圆管沿推锯方向转过一角度，装夹后逐次进行锯削",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "每锯到圆管内壁时，将圆管沿推锯方向转过一角度，装夹后逐次进行锯削"
+      ],
+      "rawAnswers": [
+        "每锯到圆管内壁时，将圆管沿推锯方向转过一角度，装夹后逐次进行锯削"
+      ],
+      "ocsAnswer": "每锯到圆管内壁时，将圆管沿推锯方向转过一角度，装夹后逐次进行锯削"
+    },
+    {
+      "id": 1014779863,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "攻丝时，每正转 1 圈要倒退 1/4 圈目的是（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "减少摩擦",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "提高螺纹精度",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "便于断屑",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "减少切削力",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "便于断屑"
+      ],
+      "rawAnswers": [
+        "便于断屑"
+      ],
+      "ocsAnswer": "便于断屑"
+    },
+    {
+      "id": 1014779864,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "可拆连接是（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "焊接",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "螺栓",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "压合",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "铆接",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "螺栓"
+      ],
+      "rawAnswers": [
+        "螺栓"
+      ],
+      "ocsAnswer": "螺栓"
+    },
+    {
+      "id": 1014779865,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "攻丝前所钻螺纹底的直径应（ ）螺纹内径。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "大于",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "小于",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "等于",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "大于"
+      ],
+      "rawAnswers": [
+        "大于"
+      ],
+      "ocsAnswer": "大于"
+    },
+    {
+      "id": 1014779866,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "用扩孔钻扩孔比用麻花钻扩孔精度高的原因是扩孔钻（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "没有横刃",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "主切削刃短",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "钻芯粗大、刚性好",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "钻芯粗大、刚性好"
+      ],
+      "rawAnswers": [
+        "钻芯粗大、刚性好"
+      ],
+      "ocsAnswer": "钻芯粗大、刚性好"
+    },
+    {
+      "id": 1014779867,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "装配中的修配法适用于（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "单件生产",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "小批生产",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "成批生产",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "大批生产",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "单件生产"
+      ],
+      "rawAnswers": [
+        "单件生产"
+      ],
+      "ocsAnswer": "单件生产"
+    },
+    {
+      "id": 1014779868,
+      "module": "钳工",
+      "homeworkTitle": "作业任务钳工",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "定期修理主要用于（ ）生产中。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "大批量",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "中小批量",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "单件",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "大批量"
+      ],
+      "rawAnswers": [
+        "大批量"
+      ],
+      "ocsAnswer": "大批量"
+    },
+    {
+      "id": 1014780957,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "材料的可锻性一般用 ___ 和 ___ 两个指标来表示。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "塑性",
+        "变形抗力"
+      ],
+      "rawAnswers": [
+        "塑性",
+        "变形抗力"
+      ],
+      "ocsAnswer": "塑性===变形抗力"
+    },
+    {
+      "id": 1014780958,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "钢料加热温度过高会产生 ___ 缺陷（这是不可避免的）以及 ___ 和 ___ 缺陷。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "氧化",
+        "脱碳；过热或过烧",
+        "脱碳；过热或过烧"
+      ],
+      "rawAnswers": [
+        "氧化",
+        "脱碳；过热或过烧",
+        "脱碳；过热或过烧"
+      ],
+      "ocsAnswer": "氧化===脱碳；过热或过烧===脱碳；过热或过烧"
+    },
+    {
+      "id": 1014780959,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "机器自由锻常用的锻造设备有 ___、___ 和 ___ 三大类。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "空气锤",
+        "蒸汽空气锤",
+        "水压机"
+      ],
+      "rawAnswers": [
+        "空气锤",
+        "蒸汽空气锤",
+        "水压机"
+      ],
+      "ocsAnswer": "空气锤===蒸汽空气锤===水压机"
+    },
+    {
+      "id": 1014780960,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "锻造加热炉按所用的热源不同，可分为 ___ 和 ___ 两大类。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "火焰加热炉",
+        "电加热炉"
+      ],
+      "rawAnswers": [
+        "火焰加热炉",
+        "电加热炉"
+      ],
+      "ocsAnswer": "火焰加热炉===电加热炉"
+    },
+    {
+      "id": 1014780961,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "手工自由锻造的基本工序有 ___、___、___、___、___、___、___ 等七种。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "镦粗",
+        "拔长",
+        "冲孔",
+        "弯曲",
+        "切割",
+        "扭转",
+        "错移"
+      ],
+      "rawAnswers": [
+        "镦粗",
+        "拔长",
+        "冲孔",
+        "弯曲",
+        "切割",
+        "扭转",
+        "错移"
+      ],
+      "ocsAnswer": "镦粗===拔长===冲孔===弯曲===切割===扭转===错移"
+    },
+    {
+      "id": 1014780962,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "手工锻造的工具根据它们的功用，可分为 ___ 工具、___ 工具和 ___ 工具。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "基本",
+        "辅助",
+        "测量"
+      ],
+      "rawAnswers": [
+        "基本",
+        "辅助",
+        "测量"
+      ],
+      "ocsAnswer": "基本===辅助===测量"
+    },
+    {
+      "id": 1014780963,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "拔长进送时每次送进量是抵铁宽度的 0.3~0.7 倍，如送进量太大反而 ___，送进量太小又容易 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "降低拔长效率",
+        "产生夹层"
+      ],
+      "rawAnswers": [
+        "降低拔长效率",
+        "产生夹层"
+      ],
+      "ocsAnswer": "降低拔长效率===产生夹层"
+    },
+    {
+      "id": 1014780964,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "冲孔时在试冲后向凹坑内撒放少许煤粉继续冲深，煤粉的作用是 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "起润滑和燃烧排气作用"
+      ],
+      "rawAnswers": [
+        "起润滑和燃烧排气作用"
+      ],
+      "ocsAnswer": "起润滑和燃烧排气作用"
+    },
+    {
+      "id": 1014780965,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "用板料制备条料常用 ___ 设备进行，由板料通过冲模分离或成型工件常用 ___ 设备进行。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "剪床",
+        "冲床"
+      ],
+      "rawAnswers": [
+        "剪床",
+        "冲床"
+      ],
+      "ocsAnswer": "剪床===冲床"
+    },
+    {
+      "id": 1014780966,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "根据工艺功能不同，锤上模锻锻模的模膛可分为 ___ 和制坯模膛，制坯模膛又分为 ___、___、___、___ 等模膛。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "终锻模膛",
+        "拔长模膛；滚压模膛；弯曲模膛；切断模膛",
+        "拔长模膛；滚压模膛；弯曲模膛；切断模膛",
+        "拔长模膛；滚压模膛；弯曲模膛；切断模膛",
+        "拔长模膛；滚压模膛；弯曲模膛；切断模膛"
+      ],
+      "rawAnswers": [
+        "终锻模膛",
+        "拔长模膛；滚压模膛；弯曲模膛；切断模膛",
+        "拔长模膛；滚压模膛；弯曲模膛；切断模膛",
+        "拔长模膛；滚压模膛；弯曲模膛；切断模膛",
+        "拔长模膛；滚压模膛；弯曲模膛；切断模膛"
+      ],
+      "ocsAnswer": "终锻模膛===拔长模膛；滚压模膛；弯曲模膛；切断模膛===拔长模膛；滚压模膛；弯曲模膛；切断模膛===拔长模膛；滚压模膛；弯曲模膛；切断模膛===拔长模膛；滚压模膛；弯曲模膛；切断模膛"
+    },
+    {
+      "id": 1014780967,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "生产中工人用火花鉴别法是鉴别（ ）的简便方法。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "钢中含碳量",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "钢中合金含量",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "硬度",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "钢中含碳量"
+      ],
+      "rawAnswers": [
+        "钢中含碳量"
+      ],
+      "ocsAnswer": "钢中含碳量"
+    },
+    {
+      "id": 1014780968,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "确定始锻温度的主要根据是确保金属在加热过程中不至于产生（ ）现象。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "氧化",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "脱碳",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "过热和过烧",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "过热和过烧"
+      ],
+      "rawAnswers": [
+        "过热和过烧"
+      ],
+      "ocsAnswer": "过热和过烧"
+    },
+    {
+      "id": 1014780969,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "下列材料中不能用于锻压加工的是（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "45 钢",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "HT200",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "ZL102 铝合金",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "HT200"
+      ],
+      "rawAnswers": [
+        "HT200"
+      ],
+      "ocsAnswer": "HT200"
+    },
+    {
+      "id": 1014780970,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "锻模的模膛上有飞边槽和冲孔连皮的设计，这是（ ）模膛。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "始锻",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "终锻",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "制坯",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "终锻"
+      ],
+      "rawAnswers": [
+        "终锻"
+      ],
+      "ocsAnswer": "终锻"
+    },
+    {
+      "id": 1014780971,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "45 钢的锻造温度范围是（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "1200—800℃",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "900—700℃",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "1500—900℃",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "1200—800℃"
+      ],
+      "rawAnswers": [
+        "1200—800℃"
+      ],
+      "ocsAnswer": "1200—800℃"
+    },
+    {
+      "id": 1014780972,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "成批大量生产 40CrMnTi 合金钢齿轮的毛坯制造方法是（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "冲压",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "自由锻造",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "模锻",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "模锻"
+      ],
+      "rawAnswers": [
+        "模锻"
+      ],
+      "ocsAnswer": "模锻"
+    },
+    {
+      "id": 1014780973,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "生产一根大型发电机主轴的毛坯应选用（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "冲压",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "自由锻造",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "模锻",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "自由锻造"
+      ],
+      "rawAnswers": [
+        "自由锻造"
+      ],
+      "ocsAnswer": "自由锻造"
+    },
+    {
+      "id": 1014780974,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "自由锻造冲孔工序的双向冲孔法是将孔冲到锻件厚度的（ ）时，拔出冲子，翻转工件从反面冲通。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "二分之一",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "三分之一",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "三分之二",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "三分之二"
+      ],
+      "rawAnswers": [
+        "三分之二"
+      ],
+      "ocsAnswer": "三分之二"
+    },
+    {
+      "id": 1014780975,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "局部镦粗时防止镦歪的条件是局部镦粗部分的高度与直径之比应（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "小于 2.5—3",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "大于 2.5",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "大于 3",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "小于 2.5—3"
+      ],
+      "rawAnswers": [
+        "小于 2.5—3"
+      ],
+      "ocsAnswer": "小于 2.5—3"
+    },
+    {
+      "id": 1014780976,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "下列材料中可锻性最好的材料是（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "10 钢",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "30 钢",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "60 钢",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "10 钢"
+      ],
+      "rawAnswers": [
+        "10 钢"
+      ],
+      "ocsAnswer": "10 钢"
+    },
+    {
+      "id": 1014780977,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "消除过热缺陷的方法是（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "报废",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "热处理或锻压",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "重新加热",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "热处理或锻压"
+      ],
+      "rawAnswers": [
+        "热处理或锻压"
+      ],
+      "ocsAnswer": "热处理或锻压"
+    },
+    {
+      "id": 1014780978,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "冲床在一个行程内只能完成一个基本工序的模具叫做（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "简单模",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "复合模",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "连续模",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "简单模"
+      ],
+      "rawAnswers": [
+        "简单模"
+      ],
+      "ocsAnswer": "简单模"
+    },
+    {
+      "id": 1014780979,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "坯料加热的目的是提高金属的塑性，降低其变形抗力。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "对"
+      ],
+      "rawAnswers": [
+        "对"
+      ],
+      "ocsAnswer": "对"
+    },
+    {
+      "id": 1014780980,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "加热温度越高，越容易锻造成形，故锻件质量也越好。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014780981,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "钢的加热速度越快，表面氧化就越严重。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014780982,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "可锻铸铁是一种可以进行锻造的材料。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014780983,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "除自由锻造外的其他锻压加工方法都具有较高的生产率。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "对"
+      ],
+      "rawAnswers": [
+        "对"
+      ],
+      "ocsAnswer": "对"
+    },
+    {
+      "id": 1014780984,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "拔长时送进量越大，则生产效率就越高。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014780985,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "双面冲孔时，当冲到工件厚度 3/4 时，应拔出冲子，翻转工件，从反面冲穿。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "对"
+      ],
+      "rawAnswers": [
+        "对"
+      ],
+      "ocsAnswer": "对"
+    },
+    {
+      "id": 1014780986,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "自由锻件所需坯料的质量与锻件的质量相等。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014780987,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "钢的含碳量越低，合金元素含量越少，则可锻性越差。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014780988,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "judgement",
+      "typeName": "判断题",
+      "score": 0.1,
+      "title": "锻造过程中，坯料随温度的下降，塑性越差，变形抗力变小。（ ）",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "错"
+      ],
+      "rawAnswers": [
+        "错"
+      ],
+      "ocsAnswer": "错"
+    },
+    {
+      "id": 1014781311,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "各种热处理方法都包括 ___、___、___ 三个阶段，调整这三个阶段的工艺参数，可使材料内部组织发生不同的变化。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "加热",
+        "保温",
+        "冷却"
+      ],
+      "rawAnswers": [
+        "加热",
+        "保温",
+        "冷却"
+      ],
+      "ocsAnswer": "加热===保温===冷却"
+    },
+    {
+      "id": 1014781312,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "生产中常用作预先热处理的工艺 ___ 和 ___；用于最终热处理工艺的是 ___ 和 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "退火",
+        "退火",
+        "淬火",
+        "淬火"
+      ],
+      "rawAnswers": [
+        "退火；正火",
+        "正火；退火",
+        "淬火；回火",
+        "回火；淬火"
+      ],
+      "ocsAnswer": "退火===退火===淬火===淬火"
+    },
+    {
+      "id": 1014781313,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "目前生产中常用的淬火液有 ___ 和 ___ 两大类。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "油",
+        "水"
+      ],
+      "rawAnswers": [
+        "油",
+        "水"
+      ],
+      "ocsAnswer": "油===水"
+    },
+    {
+      "id": 1014781314,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "淬火后进行高温回火的热处理工艺叫做 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "调质处理"
+      ],
+      "rawAnswers": [
+        "调质处理"
+      ],
+      "ocsAnswer": "调质处理"
+    },
+    {
+      "id": 1014781315,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "退火工艺的主要特点是炉冷；正火工艺的主要特点是 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "空冷"
+      ],
+      "rawAnswers": [
+        "空冷"
+      ],
+      "ocsAnswer": "空冷"
+    },
+    {
+      "id": 1014781316,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "金属材料分为 ___ 和 ___ 两大类。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "黑色金属",
+        "有色金属"
+      ],
+      "rawAnswers": [
+        "黑色金属",
+        "有色金属"
+      ],
+      "ocsAnswer": "黑色金属===有色金属"
+    },
+    {
+      "id": 1014781317,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "金属材料的力学性能（机械性能）包括 ___、___、___ 和 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "强度",
+        "塑性",
+        "硬度",
+        "韧性"
+      ],
+      "rawAnswers": [
+        "强度",
+        "塑性",
+        "硬度",
+        "韧性"
+      ],
+      "ocsAnswer": "强度===塑性===硬度===韧性"
+    },
+    {
+      "id": 1014781318,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "铸铁含碳量大于 ___；低碳钢含碳量 ___，中碳钢为 ___，高碳钢为 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "2.11%",
+        "＜0.25%",
+        "0.25%~0.6%",
+        "＞0.6%"
+      ],
+      "rawAnswers": [
+        "2.11%",
+        "＜0.25%",
+        "0.25%~0.6%",
+        "＞0.6%"
+      ],
+      "ocsAnswer": "2.11%===＜0.25%===0.25%~0.6%===＞0.6%"
+    },
+    {
+      "id": 1014781319,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "completion",
+      "typeName": "填空客观题（自动批阅）",
+      "score": 0.6,
+      "title": "合金钢按用途分为 ___、___ 和 ___。",
+      "images": [],
+      "localImages": [],
+      "options": [],
+      "answers": [
+        "合金结构钢",
+        "合金工具钢",
+        "特殊性能钢"
+      ],
+      "rawAnswers": [
+        "合金结构钢",
+        "合金工具钢",
+        "特殊性能钢"
+      ],
+      "ocsAnswer": "合金结构钢===合金工具钢===特殊性能钢"
+    },
+    {
+      "id": 1014781320,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "洛氏硬度值的正确表示方法为（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "HRC55",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "HRC55kg/mm²",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "55HRC",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "55HRC"
+      ],
+      "rawAnswers": [
+        "55HRC"
+      ],
+      "ocsAnswer": "55HRC"
+    },
+    {
+      "id": 1014781321,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "调质处理的目的是（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "提高硬度",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "改善切削加工性",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "获得较好的综合力学性能",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "获得较好的综合力学性能"
+      ],
+      "rawAnswers": [
+        "获得较好的综合力学性能"
+      ],
+      "ocsAnswer": "获得较好的综合力学性能"
+    },
+    {
+      "id": 1014781322,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "磷是钢中有害元素，它的存在会引起钢的（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "热脆",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "冷脆",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "氢脆",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "冷脆"
+      ],
+      "rawAnswers": [
+        "冷脆"
+      ],
+      "ocsAnswer": "冷脆"
+    },
+    {
+      "id": 1014781323,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "造锉刀、手用锯条时，应选用的材料为（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "T10A",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "65 钢",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "Q235",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "T10A"
+      ],
+      "rawAnswers": [
+        "T10A"
+      ],
+      "ocsAnswer": "T10A"
+    },
+    {
+      "id": 1014781324,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "45 钢的淬火加热温度应选择在（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "760℃～780℃",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "800℃～820℃",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "850℃～870℃",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "850℃～870℃"
+      ],
+      "rawAnswers": [
+        "850℃～870℃"
+      ],
+      "ocsAnswer": "850℃～870℃"
+    },
+    {
+      "id": 1014781325,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "调质处理一般安排在（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "毛坯成形之后",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "粗加工之后",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "半精加工之后",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "精加工之后",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "粗加工之后"
+      ],
+      "rawAnswers": [
+        "粗加工之后"
+      ],
+      "ocsAnswer": "粗加工之后"
+    },
+    {
+      "id": 1014781326,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "退火处理一般安排在（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "毛坯成形之后",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "加工之后",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "半精加工之后",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "精加工之后",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "毛坯成形之后"
+      ],
+      "rawAnswers": [
+        "毛坯成形之后"
+      ],
+      "ocsAnswer": "毛坯成形之后"
+    },
+    {
+      "id": 1014781327,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "淬火处理一般安排在（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "坯成形之后",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "粗加工之后",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "磨削之前",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "磨削之后",
+          "isCorrect": false
+        }
+      ],
+      "answers": [
+        "磨削之前"
+      ],
+      "rawAnswers": [
+        "磨削之前"
+      ],
+      "ocsAnswer": "磨削之前"
+    },
+    {
+      "id": 1014781328,
+      "module": "锻压",
+      "homeworkTitle": "作业任务锻压",
+      "type": "single",
+      "typeName": "单选题",
+      "score": 0.2,
+      "title": "对下述材料进行相应的热处理时，可改善其可加工性的是（ ）。",
+      "images": [],
+      "localImages": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "中碳钢的调质处理",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "碳钢的淬火处理",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "低碳钢的正火处理",
+          "isCorrect": true
+        }
+      ],
+      "answers": [
+        "低碳钢的正火处理"
+      ],
+      "rawAnswers": [
+        "低碳钢的正火处理"
+      ],
+      "ocsAnswer": "低碳钢的正火处理"
+    }
+  ]
+}
